@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mUE0Ekku8ZQ=",
+  "dgSpecHash": "afjFaLuHJZg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\QPLUS\\QplusAPI\\App.Infraestructure\\App.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\App.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DYMDesarrollo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\DYMDesarrollo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

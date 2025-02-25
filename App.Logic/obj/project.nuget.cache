@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YChqMs+cCDo=",
+  "dgSpecHash": "YMuWV6aKqEU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\QPLUS\\QplusAPI\\App.Logic\\App.logic.csproj",
+  "projectFilePath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\App.logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DYMDesarrollo\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\DYMDesarrollo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
