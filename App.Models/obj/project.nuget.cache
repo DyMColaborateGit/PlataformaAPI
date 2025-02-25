@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XsEfKvlSXMg=",
+  "dgSpecHash": "HGttmsyTsrY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\QPLUS\\QplusAPI\\App.Models\\App.Models.csproj",
+  "projectFilePath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\App.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DYMDesarrollo\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.1\\microsoft.extensions.configuration.9.0.1.nupkg.sha512",
     "C:\\Users\\DYMDesarrollo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.1\\microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
