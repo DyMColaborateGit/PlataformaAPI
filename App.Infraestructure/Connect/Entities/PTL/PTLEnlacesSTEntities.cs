@@ -13,4 +13,5 @@ public class PTLEnlacesSTEntities
     public string? DescripcionEnlace { get; set; }
     public string? RutaEnlace { get; set; }
     public bool EstadoEnlace { get; set; }
+    public ICollection<PTLContenidosELEntities>? PTLContenidosEL { get; set; }
 }

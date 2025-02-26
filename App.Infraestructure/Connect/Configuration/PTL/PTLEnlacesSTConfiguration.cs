@@ -17,7 +17,6 @@ namespace App.Infraestructure.Connect.Configuration.PTL
                  .HasColumnType("int");
 
             builder.Property(p => p.SitioId)
-                 .ValueGeneratedOnAdd()
                  .IsRequired()
                  .HasColumnType("int");
 
