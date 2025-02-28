@@ -12,4 +12,6 @@ public class PTLSitiosEntities
     public string? DescripcionSitio { get; set; }
     public string? UrlSitio { get; set; }
     public bool EstadoSitio { get; set; }
+    public ICollection<PTLEnlacesSTEntities>? PTLEnlacesSTE { get; set; }
+
 }

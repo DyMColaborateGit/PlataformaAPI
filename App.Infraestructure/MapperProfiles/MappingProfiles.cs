@@ -10,6 +10,8 @@ public class MappingProfiles: Profile
     {
         CreateMap<PTLContenidosELEntities, PTLContenidosELModels>().ReverseMap();
         CreateMap<PTLEnlacesSTEntities, PTLEnlacesSTModels>().ReverseMap();
-        CreateMap<PTLSitiosEntities, PTLSitiosModels>();
+        CreateMap<PTLSitiosEntities, PTLSitiosModels>().ReverseMap();
+
+        CreateMap<PruebaEntities, PruebaModels>().ReverseMap();
     }
 }
