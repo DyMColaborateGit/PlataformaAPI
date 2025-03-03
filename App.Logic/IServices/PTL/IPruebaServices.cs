@@ -10,6 +10,5 @@ namespace App.logic.IServices.PTL
     public interface IPruebaServices
     {
         Task<List<PruebaModels>> ListaPrueba();
-
     }
 }
