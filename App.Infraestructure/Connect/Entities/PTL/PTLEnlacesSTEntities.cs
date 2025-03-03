@@ -8,9 +8,13 @@ public class PTLEnlacesSTEntities
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Key]
     public int EnlaceId { get; set; }
+
+    [ForeignKey(nameof(SitioId))]
     public int SitioId { get; set; }
+    public PTLSitiosEntities? SitioObj { get; set; }
     public string? NombreEnlace { get; set; }
     public string? DescripcionEnlace { get; set; }
     public string? RutaEnlace { get; set; }
     public bool EstadoEnlace { get; set; }
+    public ICollection<PTLContenidosELEntities>? PTLContenidosEL { get; set; }
 }

@@ -16,10 +16,14 @@ namespace App.Infraestructure.Connect.Configuration.PTL
                  .IsRequired()
                  .HasColumnType("int");
 
-            builder.Property(p => p.SitioId)
-                 .ValueGeneratedOnAdd()
-                 .IsRequired()
-                 .HasColumnType("int");
+            builder.HasOne(p => p.SitioObj)
+                .WithMany(p => p.PTLEnlacesSTE)
+                .HasForeignKey(p => p.SitioId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            //builder.Property(p => p.SitioId)
+            //     .IsRequired()
+            //     .HasColumnType("int");
 
             builder.Property(p => p.NombreEnlace)
                 .HasMaxLength(100)

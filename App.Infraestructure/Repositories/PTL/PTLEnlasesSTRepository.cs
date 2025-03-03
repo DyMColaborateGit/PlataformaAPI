@@ -22,7 +22,7 @@ namespace App.Infraestructure.Repositories.PTL
         {
             try
             {
-                var objResult = await _context.PTLContenidosEL.AsNoTracking()
+                var objResult = await _context.PTLEnlacesST.AsNoTracking()
                     .ToListAsync();
                 return _mapper.Map<List<PTLEnlacesSTModels>>(objResult);
             }

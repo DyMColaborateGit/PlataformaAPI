@@ -8,7 +8,10 @@ public class PTLContenidosELEntities
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Key]
     public int ContenidoId { get; set; }
+
+    [ForeignKey(nameof(EnlaceId))]
     public int EnlaceId { get; set; }
+    public PTLEnlacesSTEntities? EnlaceObj { get; set; }
     public string? NombreContenido { get; set; }
     public string? DescripcionContenido { get; set; }
     public string? Contenido { get; set; }
