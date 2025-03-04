@@ -8,7 +8,7 @@ namespace App.Infraestructure.Connect.Configuration.PTL
     {
         public void Configure(EntityTypeBuilder<PTLEnlacesSTEntities> builder)
         {
-            builder.ToTable("PTLEnlacesSTE").
+            builder.ToTable("PTLEnlacesST").
             HasKey(p => new { p.EnlaceId });
 
             builder.Property(p => p.EnlaceId)
@@ -16,14 +16,9 @@ namespace App.Infraestructure.Connect.Configuration.PTL
                  .IsRequired()
                  .HasColumnType("int");
 
-            builder.HasOne(p => p.SitioObj)
-                .WithMany(p => p.PTLEnlacesSTE)
-                .HasForeignKey(p => p.SitioId)
-                .OnDelete(DeleteBehavior.NoAction);
-
-            //builder.Property(p => p.SitioId)
-            //     .IsRequired()
-            //     .HasColumnType("int");
+            builder.Property(p => p.SitioId)
+                 .IsRequired()
+                 .HasColumnType("int");
 
             builder.Property(p => p.NombreEnlace)
                 .HasMaxLength(100)

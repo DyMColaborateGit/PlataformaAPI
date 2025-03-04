@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace App.Models.Models.PTL;
 
-public class PTLContenidosELModels
+public class PTLContentsELModels
 {
-    public int ContenidoId { get; set; }
+    public int ContentId { get; set; }
     public int EnlaceId { get; set; }
-    public string? NombreContenido { get; set; }
-    public string? DescripcionContenido { get; set; }
+    public string? NombreContent { get; set; }
+    public string? DescripcionContent { get; set; }
     public string? Contenido { get; set; }
-    public bool EstadoContenido { get; set; }
+    public bool EstadoContent { get; set; }
 }
 

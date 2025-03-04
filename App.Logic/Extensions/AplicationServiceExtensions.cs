@@ -37,11 +37,9 @@ namespace App.logic.Extensions
         public static void AddAplicacionServices(this IServiceCollection services)
         {
             //services.AddScoped<IPasswordHasher<SCP_UsuarioModels>, PasswordHasher<SCP_UsuarioModels>>();
-            services.AddScoped<IPTLContenidosELService, PTLContenidoELService>();
+            services.AddScoped<IPTLContentsELService, PTLContentsELService>();
             services.AddScoped<IPTLEnlacesSTService, PTLEnlacesSTService>();
             services.AddScoped<IPTLSitiosService, PTLSitiosService>();
-
-            services.AddScoped<IPruebaServices, PruebaServices>();
         }
 
         /// <summary>
@@ -50,11 +48,9 @@ namespace App.logic.Extensions
         public static void AddAplicacionRepositories(this IServiceCollection services)
         {
 
-            services.AddScoped<IPTLContenidosELRepository, PTLContenidosELRepository>();
+            services.AddScoped<IPTLContentsELRepository, PTLContentsELRepository>();
             services.AddScoped<IPTLEnlasesSTRepository, PTLEnlasesSTRepository>();
             services.AddScoped<IPTLSitiosRepository, PTLSitiosRepository>();
-
-            services.AddScoped<PruebaRepository, PruebaRepository>();
         }
 
         /// <summary>

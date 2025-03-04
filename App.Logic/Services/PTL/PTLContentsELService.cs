@@ -4,16 +4,16 @@ using App.Models.Models.PTL;
 
 namespace App.logic.Services.PTL
 {
-    public class PTLContenidoELService : IPTLContenidosELService
+    public class PTLContentsELService : IPTLContentsELService
     {
-        private readonly IPTLContenidosELRepository _PTLContenidosELRepository;
+        private readonly IPTLContentsELRepository _PTLContenidosELRepository;
 
-        public PTLContenidoELService(IPTLContenidosELRepository PTLContenidosELRepository)
+        public PTLContentsELService(IPTLContentsELRepository PTLContenidosELRepository)
         {
             _PTLContenidosELRepository = PTLContenidosELRepository;
         }
 
-        public async Task<List<PTLContenidosELModels>> ListaContenidos()
+        public async Task<List<PTLContentsELModels>> ListaContenidos()
         {
             return await _PTLContenidosELRepository.ListaContenidos();
         }

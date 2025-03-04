@@ -4,36 +4,31 @@ using App.Infraestructure.IRepositories.PTL;
 using App.Models.Models.PTL;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App.Infraestructure.Repositories.PTL
 {
-    public class PruebaRepository : IPruebaRepository
+    public class PTLContentsELRepository : IPTLContentsELRepository
     {
         private readonly ConnectContext _context;
         private readonly IMapper _mapper;
 
-        public PruebaRepository(ConnectContext context, IMapper mapper)
+        public PTLContentsELRepository(ConnectContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task<List<PruebaModels>> ListaPrueba()
+        public async Task<List<PTLContentsELModels>> ListaContenidos()
         {
             try
             {
-                var objResult = await _context.PTLSitios.AsNoTracking()
+                var objResult = await _context.PTLContenidosEL.AsNoTracking()
                     .ToListAsync();
-                return _mapper.Map<List<PruebaModels>>(objResult);
+                return _mapper.Map<List<PTLContentsELModels>>(objResult);
             }
             catch (Exception ex)
             {
-                ExceptionLogHelpers.LogException("ListaPrueba", ex, "");
+                ExceptionLogHelpers.LogException("ListaContenidos", ex, "");
                 throw;
             }
         }

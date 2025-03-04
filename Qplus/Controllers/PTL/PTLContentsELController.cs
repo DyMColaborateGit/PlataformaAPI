@@ -8,11 +8,11 @@ namespace Qplus.Controllers.PTL
     [Route("api/[controller]")]
     [ApiController]
 
-    public class PTLContenidosELController
+    public class PTLContentsELController
     {
-        private readonly IPTLContenidosELService _PTLContenidosELService;
+        private readonly IPTLContentsELService _PTLContenidosELService;
 
-        public PTLContenidosELController(IPTLContenidosELService PTLContenidosELService)
+        public PTLContentsELController(IPTLContentsELService PTLContenidosELService)
         {
             _PTLContenidosELService = PTLContenidosELService;
         }
@@ -25,9 +25,9 @@ namespace Qplus.Controllers.PTL
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [HttpGet("ListaContenidos")]
-        public async Task<GetResponse<List<PTLContenidosELModels>>> ListaContenidos()
+        public async Task<GetResponse<List<PTLContentsELModels>>> ListaContenidos()
         {
-            GetResponse<List<PTLContenidosELModels>> resultado = new GetResponse<List<PTLContenidosELModels>>();
+            GetResponse<List<PTLContentsELModels>> resultado = new GetResponse<List<PTLContentsELModels>>();
             try
             {
                 resultado.Data = await _PTLContenidosELService.ListaContenidos();
