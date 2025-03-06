@@ -14,9 +14,10 @@ public class ConnectContext : DbContext
     #endregion
 
     #region PTL
-    public DbSet<PTLContentsELEntities> PTLContenidosEL { get; set; }
+    public DbSet<PTLContentsELEntities> PTLContentsEL { get; set; }
     public DbSet<PTLEnlacesSTEntities> PTLEnlacesST { get; set; }
     public DbSet<PTLSitiosEntities> PTLSitios { get; set; }
+    public DbSet<PTLAplicacionAPEntities> PTLAplicacionesAP { get; set; }
     #endregion
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

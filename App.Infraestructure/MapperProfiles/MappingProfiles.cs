@@ -11,5 +11,6 @@ public class MappingProfiles: Profile
         CreateMap<PTLContentsELEntities, PTLContentsELModels>().ReverseMap();
         CreateMap<PTLEnlacesSTEntities, PTLEnlacesSTModels>().ReverseMap();
         CreateMap<PTLSitiosEntities, PTLSitiosModels>().ReverseMap();
+        CreateMap<PTLAplicacionAPEntities, PTLAplicacionAPModels>().ReverseMap();
     }
 }

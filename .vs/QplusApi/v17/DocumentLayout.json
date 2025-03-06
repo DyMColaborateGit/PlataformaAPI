@@ -1,46 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Qplus.csproj|e:\\code\\plataformadym\\plataformaapi\\qplus\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Qplus.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\qplus\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Qplus.csproj|solutionrelative:qplus\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Qplus.csproj|e:\\code\\plataformadym\\plataformaapi\\qplus\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Qplus.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\qplus\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Qplus.csproj|solutionrelative:qplus\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Qplus.csproj|e:\\code\\plataformadym\\plataformaapi\\qplus\\controllers\\ptl\\ptlcontentselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Qplus.csproj|solutionrelative:qplus\\controllers\\ptl\\ptlcontentselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\entities\\ptl\\ptlaplicacionapentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\entities\\ptl\\ptlaplicacionapentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|e:\\code\\plataformadym\\plataformaapi\\app.models\\models\\ptl\\ptlcontentselmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|solutionrelative:app.models\\models\\ptl\\ptlcontentselmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\entities\\ptl\\ptlcontentselentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\entities\\ptl\\ptlcontentselentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\configuration\\ptl\\ptlcontentselconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\configuration\\ptl\\ptlcontentselconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\connectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\connectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\irepositories\\ptl\\iptlcontentselrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\irepositories\\ptl\\iptlcontentselrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\repositories\\ptl\\ptlcontentselrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\repositories\\ptl\\ptlcontentselrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|e:\\code\\plataformadym\\plataformaapi\\app.logic\\extensions\\aplicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\extensions\\aplicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.models\\models\\ptl\\ptlaplicacionapmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|solutionrelative:app.models\\models\\ptl\\ptlaplicacionapmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,125 +50,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Qplus\\appsettings.Development.json",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\appsettings.Development.json",
-              "RelativeToolTip": "Qplus\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\appsettings.json",
+              "RelativeDocumentMoniker": "Qplus\\appsettings.json",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\appsettings.json",
+              "RelativeToolTip": "Qplus\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T21:00:54.803Z",
+              "WhenOpened": "2025-03-06T17:17:48.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\appsettings.json",
-              "RelativeDocumentMoniker": "Qplus\\appsettings.json",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\appsettings.json",
-              "RelativeToolTip": "Qplus\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Qplus\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\appsettings.Development.json",
+              "RelativeToolTip": "Qplus\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T21:00:54.18Z",
+              "WhenOpened": "2025-03-06T17:17:48.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PTLAplicacionAPModels.cs",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLAplicacionAPModels.cs",
+              "RelativeDocumentMoniker": "App.Models\\Models\\PTL\\PTLAplicacionAPModels.cs",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLAplicacionAPModels.cs",
+              "RelativeToolTip": "App.Models\\Models\\PTL\\PTLAplicacionAPModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T13:12:54.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PTLContentsELController.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLContentsELController.cs",
-              "RelativeDocumentMoniker": "Qplus\\Controllers\\PTL\\PTLContentsELController.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLContentsELController.cs",
-              "RelativeToolTip": "Qplus\\Controllers\\PTL\\PTLContentsELController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABUAAAAAAAAAA==",
+              "Title": "PTLAplicacionAPEntities.cs",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLAplicacionAPEntities.cs",
+              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLAplicacionAPEntities.cs",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLAplicacionAPEntities.cs",
+              "RelativeToolTip": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLAplicacionAPEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:53:03.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AplicationServiceExtensions.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Extensions\\AplicationServiceExtensions.cs",
-              "RelativeDocumentMoniker": "App.Logic\\Extensions\\AplicationServiceExtensions.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Extensions\\AplicationServiceExtensions.cs",
-              "RelativeToolTip": "App.Logic\\Extensions\\AplicationServiceExtensions.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:50:46.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PTLContentsELRepository.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLContentsELRepository.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Repositories\\PTL\\PTLContentsELRepository.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLContentsELRepository.cs",
-              "RelativeToolTip": "App.Infraestructure\\Repositories\\PTL\\PTLContentsELRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:50:42.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPTLContentsELRepository.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLContentsELRepository.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\IRepositories\\PTL\\IPTLContentsELRepository.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLContentsELRepository.cs",
-              "RelativeToolTip": "App.Infraestructure\\IRepositories\\PTL\\IPTLContentsELRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:50:37.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConnectContext.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\ConnectContext.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\ConnectContext.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\ConnectContext.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\ConnectContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:16:16.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PTLContentsELConfiguration.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLContentsELConfiguration.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLContentsELConfiguration.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLContentsELConfiguration.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLContentsELConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T19:29:14.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PTLContentsELEntities.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLContentsELEntities.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLContentsELEntities.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLContentsELEntities.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLContentsELEntities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T19:31:09.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PTLContentsELModels.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLContentsELModels.cs",
-              "RelativeDocumentMoniker": "App.Models\\Models\\PTL\\PTLContentsELModels.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLContentsELModels.cs",
-              "RelativeToolTip": "App.Models\\Models\\PTL\\PTLContentsELModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T19:54:17.238Z"
+              "WhenOpened": "2025-03-06T13:04:49.756Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -203,10 +109,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{f2bd8fb8-fc94-3dae-a733-fd993c73cc87}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}"
             },
             {
               "$type": "Bookmark",

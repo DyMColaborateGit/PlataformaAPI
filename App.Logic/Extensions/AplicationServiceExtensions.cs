@@ -40,6 +40,7 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLContentsELService, PTLContentsELService>();
             services.AddScoped<IPTLEnlacesSTService, PTLEnlacesSTService>();
             services.AddScoped<IPTLSitiosService, PTLSitiosService>();
+            services.AddScoped<IPTLAplicacionAPService, PTLAplicacionAPService>();
         }
 
         /// <summary>
@@ -51,6 +52,7 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLContentsELRepository, PTLContentsELRepository>();
             services.AddScoped<IPTLEnlasesSTRepository, PTLEnlasesSTRepository>();
             services.AddScoped<IPTLSitiosRepository, PTLSitiosRepository>();
+            services.AddScoped<IPTLAplicacionAPRepository, PTLAplicacionAPRepository>();
         }
 
         /// <summary>
