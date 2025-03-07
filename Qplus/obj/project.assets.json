@@ -6232,9 +6232,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Qplus.csproj",
-      "projectName": "Qplus",
-      "projectPath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Qplus.csproj",
+      "projectUniqueName": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Plataforma.csproj",
+      "projectName": "Plataforma",
+      "projectPath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Plataforma.csproj",
       "packagesPath": "C:\\Users\\DYMDesarrollo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\obj\\",
       "projectStyle": "PackageReference",

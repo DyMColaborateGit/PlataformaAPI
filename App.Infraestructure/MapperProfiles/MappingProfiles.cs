@@ -8,9 +8,16 @@ public class MappingProfiles: Profile
 {
     public MappingProfiles() 
     {
+        CreateMap<PTLSitiosEntities, PTLSitiosModels>().ReverseMap();
         CreateMap<PTLContentsELEntities, PTLContentsELModels>().ReverseMap();
         CreateMap<PTLEnlacesSTEntities, PTLEnlacesSTModels>().ReverseMap();
-        CreateMap<PTLSitiosEntities, PTLSitiosModels>().ReverseMap();
+
+        CreateMap<PTLRolesEntities, PTLRolesModels>().ReverseMap();
+        CreateMap<PTLUsuariosEntities, PTLUsuariosModels>().ReverseMap();
+        CreateMap<PTLUsuariosRolesEntities, PTLUsuariosRolesModels>().ReverseMap();
+
         CreateMap<PTLAplicacionAPEntities, PTLAplicacionAPModels>().ReverseMap();
+        CreateMap<PTLModulosAPEntities, PTLModulosAPModels>().ReverseMap();
+        CreateMap<PTLVersionesAPEntities, PTLVersionesAPModels>().ReverseMap();
     }
 }
