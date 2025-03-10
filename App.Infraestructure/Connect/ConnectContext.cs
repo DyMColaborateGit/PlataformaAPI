@@ -24,6 +24,7 @@ public class ConnectContext : DbContext
     public DbSet<PTLModulosAPEntities> PTLModuloAP { get; set; }
     public DbSet<PTLVersionesAPEntities> PTLVersionesAP { get; set; }
     public DbSet<PTLHelpDeskTicketAPEntities> PTLHelpDeskTicketAP { get; set; }
+    public DbSet<PTLRequerimientoHDEntities> PTLRequerimientoHD { get; set; }
 
 
 

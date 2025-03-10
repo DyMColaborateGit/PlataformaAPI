@@ -222,6 +222,78 @@
         }
       }
     },
+    "/api/PTLHelpDeskTicketAP/ListaTickets": {
+      "get": {
+        "tags": [
+          "PTLHelpDeskTicketAP"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
     "/api/PTLModulosAP/ListaModulos": {
       "get": {
         "tags": [
@@ -244,6 +316,78 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/PTLModulosAPModelsListGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLRequerimientoHD/ListaRequerimientos": {
+      "get": {
+        "tags": [
+          "PTLRequerimientoHD"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
                 }
               }
             }
@@ -820,6 +964,59 @@
         },
         "additionalProperties": false
       },
+      "PTLHelpDeskTicketAPModels": {
+        "type": "object",
+        "properties": {
+          "ticketId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aplicacionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreTicket": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcionTicket": {
+            "type": "string",
+            "nullable": true
+          },
+          "estadoTicket": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLHelpDeskTicketAPModelsListGetResponse": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "result": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "cathError": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PTLHelpDeskTicketAPModels"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "PTLModulosAPModels": {
         "type": "object",
         "properties": {
@@ -867,6 +1064,59 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/PTLModulosAPModels"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLRequerimientoHDModels": {
+        "type": "object",
+        "properties": {
+          "requerimientoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ticketId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreRequerimiento": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcionRequerimiento": {
+            "type": "string",
+            "nullable": true
+          },
+          "estadoRequerimiento": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLRequerimientoHDModelsListGetResponse": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "result": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "cathError": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PTLRequerimientoHDModels"
             },
             "nullable": true
           }

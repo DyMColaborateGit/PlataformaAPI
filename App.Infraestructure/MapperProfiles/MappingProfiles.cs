@@ -19,5 +19,7 @@ public class MappingProfiles: Profile
         CreateMap<PTLAplicacionAPEntities, PTLAplicacionAPModels>().ReverseMap();
         CreateMap<PTLModulosAPEntities, PTLModulosAPModels>().ReverseMap();
         CreateMap<PTLVersionesAPEntities, PTLVersionesAPModels>().ReverseMap();
+        CreateMap<PTLHelpDeskTicketAPEntities, PTLHelpDeskTicketAPModels>().ReverseMap();
+        CreateMap<PTLRequerimientoHDEntities, PTLRequerimientoHDModels>().ReverseMap();
     }
 }

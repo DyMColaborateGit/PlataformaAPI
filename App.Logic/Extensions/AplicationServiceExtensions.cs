@@ -48,6 +48,8 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLAplicacionAPService, PTLAplicacionAPService>();
             services.AddScoped<IPTLModulosAPService, PTLModulosAPService>();
             services.AddScoped<IPTLVersionesAPService, PTLVersionesAPService>();
+            services.AddScoped<IPTLHelpDeskTicketAPService, PTLHelpDeskTicketAPService>();
+            services.AddScoped<IPTLRequerimientoHDService, PTLRequerimientoHDService>();
         }
 
         /// <summary>
@@ -67,6 +69,8 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLAplicacionAPRepository, PTLAplicacionAPRepository>();
             services.AddScoped<IPTLModulosAPRepository, PTLModulosAPRepository>();
             services.AddScoped<IPTLVersionesAPRepository, PTLVersionesAPRepository>();
+            services.AddScoped<IPTLHelpDeskTicketAPRepository, PTLHelpDeskTicketAPRepository>();
+            services.AddScoped<IPTLRequerimientoHDRepository, PTLRequerimientoHDRepository>();
         }
 
         /// <summary>

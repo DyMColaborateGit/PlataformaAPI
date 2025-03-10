@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.models\\models\\ptl\\ptlhelpdeskticketapmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|solutionrelative:app.models\\models\\ptl\\ptlhelpdeskticketapmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.models\\models\\ptl\\ptlseguimientorqmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|solutionrelative:app.models\\models\\ptl\\ptlseguimientorqmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\configuration\\ptl\\ptlhelpdeskticketapconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\configuration\\ptl\\ptlhelpdeskticketapconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.models\\models\\ptl\\ptlaplicacionapmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|solutionrelative:app.models\\models\\ptl\\ptlaplicacionapmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\entities\\ptl\\ptlhelpdeskticketapentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\entities\\ptl\\ptlhelpdeskticketapentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\entities\\ptl\\ptlseguimientorqentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\entities\\ptl\\ptlseguimientorqentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\configuration\\ptl\\ptlseguimientorqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\configuration\\ptl\\ptlseguimientorqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,41 +50,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PTLHelpDeskTicketAPModels.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLHelpDeskTicketAPModels.cs",
-              "RelativeDocumentMoniker": "App.Models\\Models\\PTL\\PTLHelpDeskTicketAPModels.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLHelpDeskTicketAPModels.cs",
-              "RelativeToolTip": "App.Models\\Models\\PTL\\PTLHelpDeskTicketAPModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PTLAplicacionAPModels.cs",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLAplicacionAPModels.cs",
+              "RelativeDocumentMoniker": "App.Models\\Models\\PTL\\PTLAplicacionAPModels.cs",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLAplicacionAPModels.cs",
+              "RelativeToolTip": "App.Models\\Models\\PTL\\PTLAplicacionAPModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T21:51:05.598Z",
+              "WhenOpened": "2025-03-10T21:56:37.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PTLSeguimientoRQModels.cs",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLSeguimientoRQModels.cs",
+              "RelativeDocumentMoniker": "App.Models\\Models\\PTL\\PTLSeguimientoRQModels.cs",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLSeguimientoRQModels.cs",
+              "RelativeToolTip": "App.Models\\Models\\PTL\\PTLSeguimientoRQModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:56:15.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PTLHelpDeskTicketAPEntities.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLHelpDeskTicketAPEntities.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLHelpDeskTicketAPEntities.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLHelpDeskTicketAPEntities.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLHelpDeskTicketAPEntities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "PTLSeguimientoRQEntities.cs",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLSeguimientoRQEntities.cs",
+              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLSeguimientoRQEntities.cs",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLSeguimientoRQEntities.cs",
+              "RelativeToolTip": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLSeguimientoRQEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T21:48:27.296Z",
+              "WhenOpened": "2025-03-10T21:54:10.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PTLHelpDeskTicketAPConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLHelpDeskTicketAPConfiguration.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLHelpDeskTicketAPConfiguration.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLHelpDeskTicketAPConfiguration.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLHelpDeskTicketAPConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PTLSeguimientoRQConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLSeguimientoRQConfiguration.cs",
+              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLSeguimientoRQConfiguration.cs",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLSeguimientoRQConfiguration.cs",
+              "RelativeToolTip": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLSeguimientoRQConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T21:34:05.177Z",
+              "WhenOpened": "2025-03-10T21:52:08.254Z",
               "EditorCaption": ""
             }
           ]
