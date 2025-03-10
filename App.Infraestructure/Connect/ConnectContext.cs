@@ -14,10 +14,20 @@ public class ConnectContext : DbContext
     #endregion
 
     #region PTL
-    public DbSet<PTLContenidosELEntities> PTLContenidosEL { get; set; }
-    public DbSet<PTLEnlacesSTEntities> PTLEnlacesST { get; set; }
     public DbSet<PTLSitiosEntities> PTLSitios { get; set; }
-    public DbSet<PruebaEntities> PruebaPlataforma { get; set; }
+    public DbSet<PTLEnlacesSTEntities> PTLEnlacesST { get; set; }
+    public DbSet<PTLContentsELEntities> PTLContentsEL { get; set; }
+    public DbSet<PTLRolesEntities> PTLRoles { get; set; }
+    public DbSet<PTLUsuariosEntities> PTLUsuarios { get; set; }
+    public DbSet<PTLUsuariosRolesEntities> PTLUsuariosRoles { get; set; }
+    public DbSet<PTLAplicacionAPEntities> PTLAplicacionesAP { get; set; }
+    public DbSet<PTLModulosAPEntities> PTLModuloAP { get; set; }
+    public DbSet<PTLVersionesAPEntities> PTLVersionesAP { get; set; }
+    public DbSet<PTLHelpDeskTicketAPEntities> PTLHelpDeskTicketAP { get; set; }
+    public DbSet<PTLRequerimientoHDEntities> PTLRequerimientoHD { get; set; }
+
+
+
     #endregion
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

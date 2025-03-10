@@ -37,11 +37,19 @@ namespace App.logic.Extensions
         public static void AddAplicacionServices(this IServiceCollection services)
         {
             //services.AddScoped<IPasswordHasher<SCP_UsuarioModels>, PasswordHasher<SCP_UsuarioModels>>();
-            services.AddScoped<IPTLContenidosELService, PTLContenidoELService>();
-            services.AddScoped<IPTLEnlacesSTService, PTLEnlacesSTService>();
             services.AddScoped<IPTLSitiosService, PTLSitiosService>();
+            services.AddScoped<IPTLContentsELService, PTLContentsELService>();
+            services.AddScoped<IPTLEnlacesSTService, PTLEnlacesSTService>();
 
-            services.AddScoped<IPruebaServices, PruebaServices>();
+            services.AddScoped<IPTLRolesServices, PTLRolesServices>();
+            services.AddScoped<IPTLUsuariosService, PTLUsuariosService>();
+            services.AddScoped<IPTLUsuariosRolesService, PTLUsuariosRolesService>();
+
+            services.AddScoped<IPTLAplicacionAPService, PTLAplicacionAPService>();
+            services.AddScoped<IPTLModulosAPService, PTLModulosAPService>();
+            services.AddScoped<IPTLVersionesAPService, PTLVersionesAPService>();
+            services.AddScoped<IPTLHelpDeskTicketAPService, PTLHelpDeskTicketAPService>();
+            services.AddScoped<IPTLRequerimientoHDService, PTLRequerimientoHDService>();
         }
 
         /// <summary>
@@ -50,11 +58,19 @@ namespace App.logic.Extensions
         public static void AddAplicacionRepositories(this IServiceCollection services)
         {
 
-            services.AddScoped<IPTLContenidosELRepository, PTLContenidosELRepository>();
-            services.AddScoped<IPTLEnlasesSTRepository, PTLEnlasesSTRepository>();
             services.AddScoped<IPTLSitiosRepository, PTLSitiosRepository>();
+            services.AddScoped<IPTLContentsELRepository, PTLContentsELRepository>();
+            services.AddScoped<IPTLEnlasesSTRepository, PTLEnlasesSTRepository>();
 
-            services.AddScoped<PruebaRepository, PruebaRepository>();
+            services.AddScoped<IPTLRolesRespository, PTLRolesRespository>();
+            services.AddScoped<IPTLUsuariosRepository, PTLUsuariosRepository>();
+            services.AddScoped<IPTLUsuariosRolesRepository, PTLUsuariosRolesRepository>();
+
+            services.AddScoped<IPTLAplicacionAPRepository, PTLAplicacionAPRepository>();
+            services.AddScoped<IPTLModulosAPRepository, PTLModulosAPRepository>();
+            services.AddScoped<IPTLVersionesAPRepository, PTLVersionesAPRepository>();
+            services.AddScoped<IPTLHelpDeskTicketAPRepository, PTLHelpDeskTicketAPRepository>();
+            services.AddScoped<IPTLRequerimientoHDRepository, PTLRequerimientoHDRepository>();
         }
 
         /// <summary>

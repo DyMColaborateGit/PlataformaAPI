@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qplus", "Qplus\Qplus.csproj", "{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plataforma", "Qplus\Plataforma.csproj", "{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.logic", "App.Logic\App.logic.csproj", "{C5537B18-F228-4D1E-9876-22122779E57B}"
 EndProject
