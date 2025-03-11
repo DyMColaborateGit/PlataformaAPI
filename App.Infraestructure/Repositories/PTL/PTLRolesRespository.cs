@@ -22,7 +22,7 @@ namespace App.Infraestructure.Repositories.PTL
         {
             try
             {
-                var objResult = await _context.PTLSitios
+                var objResult = await _context.PTLRoles
                     .AsNoTracking()
                     .ToListAsync();
                 return _mapper.Map<List<PTLRolesModels>>(objResult);

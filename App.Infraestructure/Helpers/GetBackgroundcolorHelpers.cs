@@ -8,7 +8,7 @@ namespace App.Infraestructure.Helpers
 {
     public class GetBackgroundcolorHelpers
     {
-        public static string colormapadetalentos(string color)
+        public static string colores(string color)
         {
             string colorimg = "";
             switch (color)
