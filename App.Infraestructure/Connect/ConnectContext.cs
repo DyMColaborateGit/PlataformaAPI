@@ -25,8 +25,15 @@ public class ConnectContext : DbContext
     public DbSet<PTLVersionesAPEntities> PTLVersionesAP { get; set; }
     public DbSet<PTLHelpDeskTicketAPEntities> PTLHelpDeskTicketAP { get; set; }
     public DbSet<PTLRequerimientoHDEntities> PTLRequerimientoHD { get; set; }
-
-
+    public DbSet<PTLSeguimientoRQEntities> PTLSeguimientoRQ { get; set; }
+    public DbSet<PTLSuscriptorAPEntities> PTLSuscriptorAP { get; set; }
+    public DbSet<PTLUsuariosSTEntities> PTLUsuariosST { get; set; }
+    public DbSet<PTLConexionesBDEntities> PTLConexionesBD { get; set; }
+    public DbSet<PTLEmpresasSTEntities> PTLEmpresasST { get; set; }
+    public DbSet<PTLUsuariosEmpresaEntities> PTLUsuariosEmpresa {  get; set; }
+    public DbSet<PTLLicenciasSTEntities> PTLLicenciasST { get; set; }
+    public DbSet<PTLPaquetesEntities> PTLPaquetes { get; set; }
+    public DbSet<PTLLogActualizacionesEntities> PTLLogActualizaciones { get; set; }
 
     #endregion
 

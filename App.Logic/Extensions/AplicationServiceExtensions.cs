@@ -50,6 +50,15 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLVersionesAPService, PTLVersionesAPService>();
             services.AddScoped<IPTLHelpDeskTicketAPService, PTLHelpDeskTicketAPService>();
             services.AddScoped<IPTLRequerimientoHDService, PTLRequerimientoHDService>();
+            services.AddScoped<IPTLSeguimientoRQService, PTLSeguimientoRQService>();
+            services.AddScoped<IPTLSuscriptorAPService, PTLSuscriptorAPService>();
+            services.AddScoped<IPTLUsuariosSTService, PTLUsuariosSTService>();
+            services.AddScoped<IPTLConexionesBDService, PTLConexionesBDService>();
+            services.AddScoped<IPTLEmpresasSTService, PTLEmpresasSTService>();
+            services.AddScoped<IPTLUsuariosEmpresaService, PTLUsuariosEmpresaService>();
+            services.AddScoped<IPTLLicenciasSTService, PTLLicenciasSTService>();
+            services.AddScoped<IPTLPaquetesService, PTLPaquetesService>();
+            services.AddScoped<IPTLLogActualizacionesService, PTLLogActualizacionesService>();
         }
 
         /// <summary>
@@ -71,6 +80,15 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLVersionesAPRepository, PTLVersionesAPRepository>();
             services.AddScoped<IPTLHelpDeskTicketAPRepository, PTLHelpDeskTicketAPRepository>();
             services.AddScoped<IPTLRequerimientoHDRepository, PTLRequerimientoHDRepository>();
+            services.AddScoped<IPTLSeguimientoRQRepository, PTLSeguimientoRQRepository>();
+            services.AddScoped<IPTLSuscriptorAPRepository, PTLSuscriptorAPRepository>();
+            services.AddScoped<IPTLUsuariosSTRepository, PTLUsuariosSTRepository>();
+            services.AddScoped<IPTLConexionesBDRepository, PTLConexionesBDRepository>();
+            services.AddScoped<IPTLEmpresasSTRepository, PTLEmpresasSTRepository>();
+            services.AddScoped<IPTLUsuariosEmpresaRepository, PTLUsuariosEmpresaRepository>();
+            services.AddScoped<IPTLLicenciasSTRepository, PTLLicenciasSTRepository>();
+            services.AddScoped<IPTLPaquetesRepository, PTLPaquetesRepository>();
+            services.AddScoped<IPTLLogActualizacionesRepository, PTLLogActualizacionesRepository>();
         }
 
         /// <summary>

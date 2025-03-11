@@ -21,5 +21,15 @@ public class MappingProfiles: Profile
         CreateMap<PTLVersionesAPEntities, PTLVersionesAPModels>().ReverseMap();
         CreateMap<PTLHelpDeskTicketAPEntities, PTLHelpDeskTicketAPModels>().ReverseMap();
         CreateMap<PTLRequerimientoHDEntities, PTLRequerimientoHDModels>().ReverseMap();
+        CreateMap<PTLSeguimientoRQEntities, PTLSeguimientoRQModels>().ReverseMap();
+        CreateMap<PTLUsuariosSTEntities,  PTLUsuariosSTModels>().ReverseMap();
+        CreateMap<PTLSuscriptorAPEntities, PTLSuscriptorAPModels>().ReverseMap();
+        CreateMap<PTLConexionesBDEntities,  PTLSuscriptorAPModels>().ReverseMap();
+        CreateMap<PTLEmpresasSTEntities, PTLEmpresasSTModels>().ReverseMap();
+        CreateMap<PTLUsuariosEmpresaEntities, PTLUsuariosEmpresaModels>().ReverseMap();
+        CreateMap<PTLLicenciasSTEntities, PTLLicenciasSTModels>().ReverseMap();
+        CreateMap<PTLPaquetesEntities, PTLPaquetesModels>().ReverseMap();
+        CreateMap<PTLLogActualizacionesEntities, PTLLogActualizacionesModels>().ReverseMap();
+
     }
 }
