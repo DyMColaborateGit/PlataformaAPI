@@ -34,6 +34,8 @@ public class ConnectContext : DbContext
     public DbSet<PTLLicenciasSTEntities> PTLLicenciasST { get; set; }
     public DbSet<PTLPaquetesEntities> PTLPaquetes { get; set; }
     public DbSet<PTLLogActualizacionesEntities> PTLLogActualizaciones { get; set; }
+    public DbSet<PTLLogActividadesAPEntities> PTLLogActividadesAP { get; set; }
+    public DbSet<PTLLogTransaccionesAPEntities> PTLLogTransaccionesAP { get; set; }
 
     #endregion
 

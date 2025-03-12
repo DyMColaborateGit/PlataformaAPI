@@ -30,6 +30,8 @@ public class MappingProfiles: Profile
         CreateMap<PTLLicenciasSTEntities, PTLLicenciasSTModels>().ReverseMap();
         CreateMap<PTLPaquetesEntities, PTLPaquetesModels>().ReverseMap();
         CreateMap<PTLLogActualizacionesEntities, PTLLogActualizacionesModels>().ReverseMap();
+        CreateMap<PTLLogActividadesAPEntities, PTLLogActualizacionesModels>().ReverseMap();
+        CreateMap<PTLLogTransaccionesAPEntities, PTLLogTransaccionesAPModels>().ReverseMap();
 
     }
 }

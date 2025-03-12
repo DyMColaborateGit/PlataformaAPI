@@ -23,6 +23,10 @@ namespace App.Infraestructure.Connect.Configuration.PTL
             builder.Property(p => p.VersionId)
                 .IsRequired()
                 .HasColumnType("int");
+
+            builder.Property(p => p.Fecha)
+                .IsRequired()
+                .HasColumnType("Datetime");
         }
     }
 }
