@@ -1,40 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Plataforma.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\qplus\\controllers\\ptl\\ptllogactualizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Plataforma.csproj|solutionrelative:qplus\\controllers\\ptl\\ptllogactualizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.logic\\iservices\\ptl\\iptllogactualizacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\iservices\\ptl\\iptllogactualizacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.logic\\services\\ptl\\ptllogactualizacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\services\\ptl\\ptllogactualizacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\irepositories\\ptl\\iptllogactualizacionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\irepositories\\ptl\\iptllogactualizacionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.models\\models\\ptl\\ptllogactualizacionesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|solutionrelative:app.models\\models\\ptl\\ptllogactualizacionesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\repositories\\ptl\\ptllogactualizacionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\repositories\\ptl\\ptllogactualizacionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\configuration\\ptl\\ptllogactualizacionesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\configuration\\ptl\\ptllogactualizacionesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\entities\\ptl\\ptllogactualizacionesentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\entities\\ptl\\ptllogactualizacionesentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -42,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,110 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PTLLogActualizacionesController.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLLogActualizacionesController.cs",
-              "RelativeDocumentMoniker": "Qplus\\Controllers\\PTL\\PTLLogActualizacionesController.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLLogActualizacionesController.cs",
-              "RelativeToolTip": "Qplus\\Controllers\\PTL\\PTLLogActualizacionesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:48:16.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PTLLogActualizacionesService.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Services\\PTL\\PTLLogActualizacionesService.cs",
-              "RelativeDocumentMoniker": "App.Logic\\Services\\PTL\\PTLLogActualizacionesService.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Services\\PTL\\PTLLogActualizacionesService.cs",
-              "RelativeToolTip": "App.Logic\\Services\\PTL\\PTLLogActualizacionesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:46:17.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPTLLogActualizacionesService.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\IServices\\PTL\\IPTLLogActualizacionesService.cs",
-              "RelativeDocumentMoniker": "App.Logic\\IServices\\PTL\\IPTLLogActualizacionesService.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\IServices\\PTL\\IPTLLogActualizacionesService.cs",
-              "RelativeToolTip": "App.Logic\\IServices\\PTL\\IPTLLogActualizacionesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:45:45.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PTLLogActualizacionesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLLogActualizacionesRepository.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Repositories\\PTL\\PTLLogActualizacionesRepository.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLLogActualizacionesRepository.cs",
-              "RelativeToolTip": "App.Infraestructure\\Repositories\\PTL\\PTLLogActualizacionesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:43:50.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPTLLogActualizacionesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLLogActualizacionesRepository.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\IRepositories\\PTL\\IPTLLogActualizacionesRepository.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLLogActualizacionesRepository.cs",
-              "RelativeToolTip": "App.Infraestructure\\IRepositories\\PTL\\IPTLLogActualizacionesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:42:24.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PTLLogActualizacionesModels.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLLogActualizacionesModels.cs",
-              "RelativeDocumentMoniker": "App.Models\\Models\\PTL\\PTLLogActualizacionesModels.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLLogActualizacionesModels.cs",
-              "RelativeToolTip": "App.Models\\Models\\PTL\\PTLLogActualizacionesModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:40:56.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PTLLogActualizacionesEntities.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLLogActualizacionesEntities.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLLogActualizacionesEntities.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLLogActualizacionesEntities.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLLogActualizacionesEntities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:39:37.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PTLLogActualizacionesConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLLogActualizacionesConfiguration.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLLogActualizacionesConfiguration.cs",
-              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLLogActualizacionesConfiguration.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLLogActualizacionesConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:37:35.636Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -177,6 +40,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{f2bd8fb8-fc94-3dae-a733-fd993c73cc87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}"
             },
             {
               "$type": "Bookmark",

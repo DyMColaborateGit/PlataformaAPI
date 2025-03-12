@@ -59,6 +59,8 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLLicenciasSTService, PTLLicenciasSTService>();
             services.AddScoped<IPTLPaquetesService, PTLPaquetesService>();
             services.AddScoped<IPTLLogActualizacionesService, PTLLogActualizacionesService>();
+            services.AddScoped<IPTLLogActividadesAPService, PTLLogActividadesAPService>();
+            services.AddScoped<IPTLLogTransaccionesAPService,  PTLLogTransaccionesAPService>();
         }
 
         /// <summary>
@@ -89,6 +91,8 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLLicenciasSTRepository, PTLLicenciasSTRepository>();
             services.AddScoped<IPTLPaquetesRepository, PTLPaquetesRepository>();
             services.AddScoped<IPTLLogActualizacionesRepository, PTLLogActualizacionesRepository>();
+            services.AddScoped<IPTLLogActividadesAPRepository, PTLLogActividadesAPRepository>();
+            services.AddScoped<IPTLLogTransaccionesAPRepository,  PTLLogTransaccionesAPRepository>();
         }
 
         /// <summary>
