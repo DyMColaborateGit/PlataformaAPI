@@ -6,10 +6,10 @@
     "version": "v1"
   },
   "paths": {
-    "/api/PTLAplicacionAP/ListaAplicaciones": {
+    "/api/PTLAplicacion/ListaAplicaciones": {
       "get": {
         "tags": [
-          "PTLAplicacionAP"
+          "PTLAplicacion"
         ],
         "responses": {
           "200": {
@@ -17,17 +17,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
                 }
               }
             }
@@ -438,10 +438,10 @@
         }
       }
     },
-    "/api/PTLLicenciasST/ListaLicencias": {
+    "/api/PTLLicencias/ListaLicencias": {
       "get": {
         "tags": [
-          "PTLLicenciasST"
+          "PTLLicencias"
         ],
         "responses": {
           "200": {
@@ -449,17 +449,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLLicenciasSTModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLLicenciasModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLLicenciasSTModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLLicenciasModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLLicenciasSTModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLLicenciasModelsListGetResponse"
                 }
               }
             }
@@ -942,10 +942,10 @@
         }
       }
     },
-    "/api/PTLRoles/ListaRoles": {
+    "/api/PTLRolesAP/ListaRoles": {
       "get": {
         "tags": [
-          "PTLRoles"
+          "PTLRolesAP"
         ],
         "responses": {
           "200": {
@@ -953,17 +953,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRolesModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRolesAPModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRolesModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRolesAPModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRolesModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRolesAPModelsListGetResponse"
                 }
               }
             }
@@ -1593,7 +1593,7 @@
   },
   "components": {
     "schemas": {
-      "PTLAplicacionAPModels": {
+      "PTLAplicacionModels": {
         "type": "object",
         "properties": {
           "aplicacionId": {
@@ -1614,7 +1614,7 @@
         },
         "additionalProperties": false
       },
-      "PTLAplicacionAPModelsListGetResponse": {
+      "PTLAplicacionModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1635,7 +1635,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLAplicacionAPModels"
+              "$ref": "#/components/schemas/PTLAplicacionModels"
             },
             "nullable": true
           }
@@ -1919,7 +1919,7 @@
         },
         "additionalProperties": false
       },
-      "PTLLicenciasSTModels": {
+      "PTLLicenciasModels": {
         "type": "object",
         "properties": {
           "licenciaId": {
@@ -1940,11 +1940,15 @@
           },
           "estadoLicencia": {
             "type": "boolean"
+          },
+          "aplicacionId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
       },
-      "PTLLicenciasSTModelsListGetResponse": {
+      "PTLLicenciasModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1965,7 +1969,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLLicenciasSTModels"
+              "$ref": "#/components/schemas/PTLLicenciasModels"
             },
             "nullable": true
           }
@@ -2285,10 +2289,14 @@
         },
         "additionalProperties": false
       },
-      "PTLRolesModels": {
+      "PTLRolesAPModels": {
         "type": "object",
         "properties": {
           "rolId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aplicacionId": {
             "type": "integer",
             "format": "int32"
           },
@@ -2306,7 +2314,7 @@
         },
         "additionalProperties": false
       },
-      "PTLRolesModelsListGetResponse": {
+      "PTLRolesAPModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2327,7 +2335,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLRolesModels"
+              "$ref": "#/components/schemas/PTLRolesAPModels"
             },
             "nullable": true
           }
@@ -2551,6 +2559,10 @@
             "nullable": true
           },
           "claveUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "correoUsuario": {
             "type": "string",
             "nullable": true
           },

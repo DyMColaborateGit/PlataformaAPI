@@ -17,10 +17,10 @@ public class ConnectContext : DbContext
     public DbSet<PTLSitiosEntities> PTLSitios { get; set; }
     public DbSet<PTLEnlacesSTEntities> PTLEnlacesST { get; set; }
     public DbSet<PTLContentsELEntities> PTLContentsEL { get; set; }
-    public DbSet<PTLRolesEntities> PTLRoles { get; set; }
+    public DbSet<PTLRolesAPEntities> PTLRolesAP { get; set; }
     public DbSet<PTLUsuariosEntities> PTLUsuarios { get; set; }
     public DbSet<PTLUsuariosRolesEntities> PTLUsuariosRoles { get; set; }
-    public DbSet<PTLAplicacionAPEntities> PTLAplicacionesAP { get; set; }
+    public DbSet<PTLAplicacionEntities> PTLAplicacion { get; set; }
     public DbSet<PTLModulosAPEntities> PTLModuloAP { get; set; }
     public DbSet<PTLVersionesAPEntities> PTLVersionesAP { get; set; }
     public DbSet<PTLHelpDeskTicketAPEntities> PTLHelpDeskTicketAP { get; set; }
@@ -31,7 +31,7 @@ public class ConnectContext : DbContext
     public DbSet<PTLConexionesBDEntities> PTLConexionesBD { get; set; }
     public DbSet<PTLEmpresasSTEntities> PTLEmpresasST { get; set; }
     public DbSet<PTLUsuariosEmpresaEntities> PTLUsuariosEmpresa {  get; set; }
-    public DbSet<PTLLicenciasSTEntities> PTLLicenciasST { get; set; }
+    public DbSet<PTLLicenciasEntities> PTLLicencias { get; set; }
     public DbSet<PTLPaquetesEntities> PTLPaquetes { get; set; }
     public DbSet<PTLLogActualizacionesEntities> PTLLogActualizaciones { get; set; }
     public DbSet<PTLLogActividadesAPEntities> PTLLogActividadesAP { get; set; }

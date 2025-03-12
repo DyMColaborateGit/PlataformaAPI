@@ -12,11 +12,11 @@ public class MappingProfiles: Profile
         CreateMap<PTLContentsELEntities, PTLContentsELModels>().ReverseMap();
         CreateMap<PTLEnlacesSTEntities, PTLEnlacesSTModels>().ReverseMap();
 
-        CreateMap<PTLRolesEntities, PTLRolesModels>().ReverseMap();
+        CreateMap<PTLRolesAPEntities, PTLRolesAPModels>().ReverseMap();
         CreateMap<PTLUsuariosEntities, PTLUsuariosModels>().ReverseMap();
         CreateMap<PTLUsuariosRolesEntities, PTLUsuariosRolesModels>().ReverseMap();
 
-        CreateMap<PTLAplicacionAPEntities, PTLAplicacionAPModels>().ReverseMap();
+        CreateMap<PTLAplicacionEntities, PTLAplicacionModels>().ReverseMap();
         CreateMap<PTLModulosAPEntities, PTLModulosAPModels>().ReverseMap();
         CreateMap<PTLVersionesAPEntities, PTLVersionesAPModels>().ReverseMap();
         CreateMap<PTLHelpDeskTicketAPEntities, PTLHelpDeskTicketAPModels>().ReverseMap();
@@ -27,7 +27,7 @@ public class MappingProfiles: Profile
         CreateMap<PTLConexionesBDEntities,  PTLSuscriptorAPModels>().ReverseMap();
         CreateMap<PTLEmpresasSTEntities, PTLEmpresasSTModels>().ReverseMap();
         CreateMap<PTLUsuariosEmpresaEntities, PTLUsuariosEmpresaModels>().ReverseMap();
-        CreateMap<PTLLicenciasSTEntities, PTLLicenciasSTModels>().ReverseMap();
+        CreateMap<PTLLicenciasEntities, PTLLicenciasModels>().ReverseMap();
         CreateMap<PTLPaquetesEntities, PTLPaquetesModels>().ReverseMap();
         CreateMap<PTLLogActualizacionesEntities, PTLLogActualizacionesModels>().ReverseMap();
         CreateMap<PTLLogActividadesAPEntities, PTLLogActualizacionesModels>().ReverseMap();

@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "Qplus.Controllers.PTL.PTLAplicacionAPController",
+    "ContainingType": "Qplus.Controllers.PTL.PTLAplicacionController",
     "Method": "ListaAplicaciones",
-    "RelativePath": "api/PTLAplicacionAP/ListaAplicaciones",
+    "RelativePath": "api/PTLAplicacion/ListaAplicaciones",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLAplicacionAPModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLAplicacionModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -258,16 +258,16 @@
     ]
   },
   {
-    "ContainingType": "Plataforma.Controllers.PTL.PTLLicenciasSTController",
+    "ContainingType": "Plataforma.Controllers.PTL.PTLLicenciasController",
     "Method": "ListaLicencias",
-    "RelativePath": "api/PTLLicenciasST/ListaLicencias",
+    "RelativePath": "api/PTLLicencias/ListaLicencias",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLLicenciasSTModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLLicenciasModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -559,16 +559,16 @@
     ]
   },
   {
-    "ContainingType": "Qplus.Controllers.PTL.PTLRolesController",
+    "ContainingType": "Qplus.Controllers.PTL.PTLRolesAPController",
     "Method": "ListaRoles",
-    "RelativePath": "api/PTLRoles/ListaRoles",
+    "RelativePath": "api/PTLRolesAP/ListaRoles",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLRolesModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLRolesAPModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
