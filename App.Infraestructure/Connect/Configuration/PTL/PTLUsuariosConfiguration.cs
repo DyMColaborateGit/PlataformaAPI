@@ -24,6 +24,10 @@ namespace App.Infraestructure.Connect.Configuration.PTL
                 .HasMaxLength(100)
                 .HasColumnType("nvarchar");
 
+            builder.Property(p => p.CorreoUsuario)
+                .HasMaxLength(100)
+                .HasColumnType("nvarchar");
+
             builder.Property(p => p.EstadoUsuario)
                 .HasColumnType("bit");
         }

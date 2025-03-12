@@ -41,11 +41,11 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLContentsELService, PTLContentsELService>();
             services.AddScoped<IPTLEnlacesSTService, PTLEnlacesSTService>();
 
-            services.AddScoped<IPTLRolesServices, PTLRolesServices>();
+            services.AddScoped<IPTLRolesAPServices, PTLRolesAPServices>();
             services.AddScoped<IPTLUsuariosService, PTLUsuariosService>();
             services.AddScoped<IPTLUsuariosRolesService, PTLUsuariosRolesService>();
 
-            services.AddScoped<IPTLAplicacionAPService, PTLAplicacionAPService>();
+            services.AddScoped<IPTLAplicacionService, PTLAplicacionService>();
             services.AddScoped<IPTLModulosAPService, PTLModulosAPService>();
             services.AddScoped<IPTLVersionesAPService, PTLVersionesAPService>();
             services.AddScoped<IPTLHelpDeskTicketAPService, PTLHelpDeskTicketAPService>();
@@ -56,7 +56,7 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLConexionesBDService, PTLConexionesBDService>();
             services.AddScoped<IPTLEmpresasSTService, PTLEmpresasSTService>();
             services.AddScoped<IPTLUsuariosEmpresaService, PTLUsuariosEmpresaService>();
-            services.AddScoped<IPTLLicenciasSTService, PTLLicenciasSTService>();
+            services.AddScoped<IPTLLicenciasService, PTLLicenciasService>();
             services.AddScoped<IPTLPaquetesService, PTLPaquetesService>();
             services.AddScoped<IPTLLogActualizacionesService, PTLLogActualizacionesService>();
             services.AddScoped<IPTLLogActividadesAPService, PTLLogActividadesAPService>();
@@ -73,11 +73,11 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLContentsELRepository, PTLContentsELRepository>();
             services.AddScoped<IPTLEnlasesSTRepository, PTLEnlasesSTRepository>();
 
-            services.AddScoped<IPTLRolesRespository, PTLRolesRespository>();
+            services.AddScoped<IPTLRolesAPRespository, PTLRolesAPRespository>();
             services.AddScoped<IPTLUsuariosRepository, PTLUsuariosRepository>();
             services.AddScoped<IPTLUsuariosRolesRepository, PTLUsuariosRolesRepository>();
 
-            services.AddScoped<IPTLAplicacionAPRepository, PTLAplicacionAPRepository>();
+            services.AddScoped<IPTLAplicacionRepository, PTLAplicacionRepository>();
             services.AddScoped<IPTLModulosAPRepository, PTLModulosAPRepository>();
             services.AddScoped<IPTLVersionesAPRepository, PTLVersionesAPRepository>();
             services.AddScoped<IPTLHelpDeskTicketAPRepository, PTLHelpDeskTicketAPRepository>();
@@ -88,7 +88,7 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLConexionesBDRepository, PTLConexionesBDRepository>();
             services.AddScoped<IPTLEmpresasSTRepository, PTLEmpresasSTRepository>();
             services.AddScoped<IPTLUsuariosEmpresaRepository, PTLUsuariosEmpresaRepository>();
-            services.AddScoped<IPTLLicenciasSTRepository, PTLLicenciasSTRepository>();
+            services.AddScoped<IPTLLicenciasRepository, PTLLicenciasRepository>();
             services.AddScoped<IPTLPaquetesRepository, PTLPaquetesRepository>();
             services.AddScoped<IPTLLogActualizacionesRepository, PTLLogActualizacionesRepository>();
             services.AddScoped<IPTLLogActividadesAPRepository, PTLLogActividadesAPRepository>();
