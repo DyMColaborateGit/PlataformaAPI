@@ -8,13 +8,13 @@ namespace Qplus.Controllers.PTL
     [Route("api/[controller]")]
     [ApiController]
 
-    public class PTLContentsELController
+    public class PTLUsuariosAPController
     {
-        private readonly IPTLContentsELService _PTLContenidosELService;
+        private readonly IPTLUsuariosAPService _PTLUsuariosAPService;
 
-        public PTLContentsELController(IPTLContentsELService PTLContenidosELService)
+        public PTLUsuariosAPController(IPTLUsuariosAPService PTLUsuariosAPService)
         {
-            _PTLContenidosELService = PTLContenidosELService;
+            _PTLUsuariosAPService = PTLUsuariosAPService;
         }
 
         /// <response code="200">OK. Devuelve el objeto solicitado.</response> 
@@ -24,13 +24,13 @@ namespace Qplus.Controllers.PTL
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [HttpGet("ListaContenidos")]
-        public async Task<GetResponse<List<PTLContentsELModels>>> ListaContenidos()
+        [HttpGet("ListaUsuarios")]
+        public async Task<GetResponse<List<PTLUsuariosAPModels>>> ListaUsuarios()
         {
-            GetResponse<List<PTLContentsELModels>> resultado = new GetResponse<List<PTLContentsELModels>>();
+            GetResponse<List<PTLUsuariosAPModels>> resultado = new GetResponse<List<PTLUsuariosAPModels>>();
             try
             {
-                resultado.Data = await _PTLContenidosELService.ListaContenidos();
+                resultado.Data = await _PTLUsuariosAPService.ListaUsuarios();
                 resultado.StatusCode = (int)HttpCodes.OK;
                 resultado.Message = new HttpCodesMessage().OK;
                 return resultado;

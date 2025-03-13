@@ -2,8 +2,8 @@
 
 namespace App.Infraestructure.IRepositories.PTL
 {
-    public interface IPTLSitiosRepository
+    public interface IPTLSitiosAPRepository
     {
-        Task<List<PTLSitiosModels>> ListaSitios();
+        Task<List<PTLSitiosAPModels>> ListaSitios();
     }
 }

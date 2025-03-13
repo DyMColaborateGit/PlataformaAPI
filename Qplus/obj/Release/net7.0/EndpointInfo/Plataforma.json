@@ -150,10 +150,10 @@
         }
       }
     },
-    "/api/PTLContentsEL/ListaContenidos": {
+    "/api/PTLContenidoEL/ListaContenidos": {
       "get": {
         "tags": [
-          "PTLContentsEL"
+          "PTLContenidoEL"
         ],
         "responses": {
           "200": {
@@ -161,17 +161,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContentsELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContentsELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContentsELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
                 }
               }
             }
@@ -1086,10 +1086,10 @@
         }
       }
     },
-    "/api/PTLSitios/ListaSitios": {
+    "/api/PTLSitiosAP/ListaSitios": {
       "get": {
         "tags": [
-          "PTLSitios"
+          "PTLSitiosAP"
         ],
         "responses": {
           "200": {
@@ -1097,17 +1097,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSitiosModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSitiosModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSitiosModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsListGetResponse"
                 }
               }
             }
@@ -1230,10 +1230,10 @@
         }
       }
     },
-    "/api/PTLUsuarios/ListaSitios": {
+    "/api/PTLUsuariosAP/ListaUsuarios": {
       "get": {
         "tags": [
-          "PTLUsuarios"
+          "PTLUsuariosAP"
         ],
         "responses": {
           "200": {
@@ -1241,17 +1241,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosAPModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosAPModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosAPModelsListGetResponse"
                 }
               }
             }
@@ -1699,10 +1699,10 @@
         },
         "additionalProperties": false
       },
-      "PTLContentsELModels": {
+      "PTLContenidoELModels": {
         "type": "object",
         "properties": {
-          "contentId": {
+          "contenidoId": {
             "type": "integer",
             "format": "int32"
           },
@@ -1710,11 +1710,11 @@
             "type": "integer",
             "format": "int32"
           },
-          "nombreContent": {
+          "nombreContenido": {
             "type": "string",
             "nullable": true
           },
-          "descripcionContent": {
+          "descripcionContenido": {
             "type": "string",
             "nullable": true
           },
@@ -1722,13 +1722,13 @@
             "type": "string",
             "nullable": true
           },
-          "estadoContent": {
+          "estadoContenido": {
             "type": "boolean"
           }
         },
         "additionalProperties": false
       },
-      "PTLContentsELModelsListGetResponse": {
+      "PTLContenidoELModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1749,7 +1749,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLContentsELModels"
+              "$ref": "#/components/schemas/PTLContenidoELModels"
             },
             "nullable": true
           }
@@ -2395,7 +2395,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSitiosModels": {
+      "PTLSitiosAPModels": {
         "type": "object",
         "properties": {
           "sitioId": {
@@ -2416,11 +2416,15 @@
           },
           "estadoSitio": {
             "type": "boolean"
+          },
+          "aplicacionId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
       },
-      "PTLSitiosModelsListGetResponse": {
+      "PTLSitiosAPModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2441,7 +2445,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLSitiosModels"
+              "$ref": "#/components/schemas/PTLSitiosAPModels"
             },
             "nullable": true
           }
@@ -2501,6 +2505,63 @@
         },
         "additionalProperties": false
       },
+      "PTLUsuariosAPModels": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "claveUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "correoUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "estadoUsuario": {
+            "type": "boolean"
+          },
+          "aplicacionId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLUsuariosAPModelsListGetResponse": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "result": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "cathError": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PTLUsuariosAPModels"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "PTLUsuariosEmpresaModels": {
         "type": "object",
         "properties": {
@@ -2541,59 +2602,6 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/PTLUsuariosEmpresaModels"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PTLUsuariosModels": {
-        "type": "object",
-        "properties": {
-          "usuarioId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "nombreUsuario": {
-            "type": "string",
-            "nullable": true
-          },
-          "claveUsuario": {
-            "type": "string",
-            "nullable": true
-          },
-          "correoUsuario": {
-            "type": "string",
-            "nullable": true
-          },
-          "estadoUsuario": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "PTLUsuariosModelsListGetResponse": {
-        "type": "object",
-        "properties": {
-          "statusCode": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "result": {
-            "type": "boolean"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "cathError": {
-            "type": "string",
-            "nullable": true
-          },
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/PTLUsuariosModels"
             },
             "nullable": true
           }

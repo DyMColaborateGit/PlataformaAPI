@@ -7,28 +7,29 @@ using Microsoft.EntityFrameworkCore;
 
 namespace App.Infraestructure.Repositories.PTL
 {
-    public class PTLSitiosRepository : IPTLSitiosRepository
+    public class PTLContenidoELRepository : IPTLContenidoELRepository
     {
         private readonly ConnectContext _context;
         private readonly IMapper _mapper;
 
-        public PTLSitiosRepository(ConnectContext context, IMapper mapper)
+        public PTLContenidoELRepository(ConnectContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task<List<PTLSitiosModels>> ListaSitios()
+        public async Task<List<PTLContenidoELModels>> ListaContenidos()
         {
             try
             {
-                var objResult = await _context.PTLSitios.AsNoTracking()
+                var objResult = await _context.PTLContenidoEL
+                    .AsNoTracking()
                     .ToListAsync();
-                return _mapper.Map<List<PTLSitiosModels>>(objResult);
+                return _mapper.Map<List<PTLContenidoELModels>>(objResult);
             }
             catch (Exception ex)
             {
-                ExceptionLogHelpers.LogException("ListaSitios", ex, "");
+                ExceptionLogHelpers.LogException("ListaContenidos", ex, "");
                 throw;
             }
         }

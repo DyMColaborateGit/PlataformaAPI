@@ -4,11 +4,11 @@ using App.Infraestructure.Connect.Entities.PTL;
 
 namespace App.Infraestructure.Connect.Configuration.PTL
 {
-    public class PTLSitiosConfiguration : IEntityTypeConfiguration<PTLSitiosEntities>
+    public class PTLSitiosAPConfiguration : IEntityTypeConfiguration<PTLSitiosAPEntities>
     {
-        public void Configure(EntityTypeBuilder<PTLSitiosEntities> builder)
+        public void Configure(EntityTypeBuilder<PTLSitiosAPEntities> builder)
         {
-            builder.ToTable("PTLSitios").
+            builder.ToTable("PTLSitiosAP").
             HasKey(p => new { p.SitioId });
 
             builder.Property(p => p.SitioId)
@@ -31,6 +31,10 @@ namespace App.Infraestructure.Connect.Configuration.PTL
             builder.Property(p => p.EstadoSitio)
                 .IsRequired()
                 .HasColumnType("bit");
+
+            builder.Property(p => p.AplicacionId)
+                 .IsRequired()
+                 .HasColumnType("int");
         }
     }
 }

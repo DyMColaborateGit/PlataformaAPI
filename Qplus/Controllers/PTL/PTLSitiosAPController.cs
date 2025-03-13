@@ -1,4 +1,5 @@
-﻿using App.logic.IServices.PTL;
+﻿using App.logic.IServices;
+using App.logic.IServices.PTL;
 using App.Models.Global;
 using App.Models.Models.PTL;
 using Microsoft.AspNetCore.Mvc;
@@ -8,13 +9,13 @@ namespace Qplus.Controllers.PTL
     [Route("api/[controller]")]
     [ApiController]
 
-    public class PTLUsuariosController
+    public class PTLSitiosAPController
     {
-        private readonly IPTLUsuariosService _PTLUsuariosService;
+        private readonly IPTLSitiosAPService _PTLSitiosAPService;
 
-        public PTLUsuariosController(IPTLUsuariosService PTLUsuariosService)
+        public PTLSitiosAPController(IPTLSitiosAPService PTLSitiosAPService)
         {
-            _PTLUsuariosService = PTLUsuariosService;
+            _PTLSitiosAPService = PTLSitiosAPService;
         }
 
         /// <response code="200">OK. Devuelve el objeto solicitado.</response> 
@@ -25,12 +26,12 @@ namespace Qplus.Controllers.PTL
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [HttpGet("ListaSitios")]
-        public async Task<GetResponse<List<PTLUsuariosModels>>> ListaSitios()
+        public async Task<GetResponse<List<PTLSitiosAPModels>>> ListaSitios()
         {
-            GetResponse<List<PTLUsuariosModels>> resultado = new GetResponse<List<PTLUsuariosModels>>();
+            GetResponse<List<PTLSitiosAPModels>> resultado = new GetResponse<List<PTLSitiosAPModels>>();
             try
             {
-                resultado.Data = await _PTLUsuariosService.ListaUsuarios();
+                resultado.Data = await _PTLSitiosAPService.ListaSitios();
                 resultado.StatusCode = (int)HttpCodes.OK;
                 resultado.Message = new HttpCodesMessage().OK;
                 return resultado;

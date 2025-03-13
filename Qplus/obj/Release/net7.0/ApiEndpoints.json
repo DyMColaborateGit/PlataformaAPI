@@ -86,16 +86,16 @@
     ]
   },
   {
-    "ContainingType": "Qplus.Controllers.PTL.PTLContentsELController",
+    "ContainingType": "Qplus.Controllers.PTL.PTLContenidoELController",
     "Method": "ListaContenidos",
-    "RelativePath": "api/PTLContentsEL/ListaContenidos",
+    "RelativePath": "api/PTLContenidoEL/ListaContenidos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLContentsELModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLContenidoELModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -645,16 +645,16 @@
     ]
   },
   {
-    "ContainingType": "Qplus.Controllers.PTL.PTLSitiosController",
+    "ContainingType": "Qplus.Controllers.PTL.PTLSitiosAPController",
     "Method": "ListaSitios",
-    "RelativePath": "api/PTLSitios/ListaSitios",
+    "RelativePath": "api/PTLSitiosAP/ListaSitios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLSitiosModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLSitiosAPModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -731,16 +731,16 @@
     ]
   },
   {
-    "ContainingType": "Qplus.Controllers.PTL.PTLUsuariosController",
-    "Method": "ListaSitios",
-    "RelativePath": "api/PTLUsuarios/ListaSitios",
+    "ContainingType": "Qplus.Controllers.PTL.PTLUsuariosAPController",
+    "Method": "ListaUsuarios",
+    "RelativePath": "api/PTLUsuariosAP/ListaUsuarios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLUsuariosModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLUsuariosAPModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

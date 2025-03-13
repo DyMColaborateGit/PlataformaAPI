@@ -4,14 +4,14 @@ using App.Infraestructure.Connect.Entities.PTL;
 
 namespace App.Infraestructure.Connect.Configuration.PTL
 {
-    public class PTLContentsELConfiguration : IEntityTypeConfiguration<PTLContentsELEntities>
+    public class PTLContenidoELConfiguration : IEntityTypeConfiguration<PTLContenidoELEntities>
     {
-        public void Configure(EntityTypeBuilder<PTLContentsELEntities> builder)
+        public void Configure(EntityTypeBuilder<PTLContenidoELEntities> builder)
         {
-            builder.ToTable("PTLContentsEL")
-                .HasKey(p => new { p.ContentId });
+            builder.ToTable("PTLContenidoEL")
+                .HasKey(p => new { p.ContenidoId });
 
-            builder.Property(p => p.ContentId)
+            builder.Property(p => p.ContenidoId)
                  .ValueGeneratedOnAdd()
                  .IsRequired()
                  .HasColumnType("int");
@@ -20,11 +20,11 @@ namespace App.Infraestructure.Connect.Configuration.PTL
                  .HasColumnType("int")
                  .IsRequired();
 
-            builder.Property(p => p.NombreContent)
+            builder.Property(p => p.NombreContenido)
                 .HasMaxLength(100)
                 .HasColumnType("nvarchar");
 
-            builder.Property(p => p.DescripcionContent)
+            builder.Property(p => p.DescripcionContenido)
                 .HasMaxLength(500)
                 .HasColumnType("nvarchar");
 
@@ -32,7 +32,7 @@ namespace App.Infraestructure.Connect.Configuration.PTL
                 .HasMaxLength(4000)
                 .HasColumnType("nvarchar");
 
-            builder.Property(p => p.EstadoContent)
+            builder.Property(p => p.EstadoContenido)
                 .IsRequired()
                 .HasColumnType("bit");
         }
