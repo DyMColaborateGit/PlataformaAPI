@@ -14,11 +14,11 @@ public class ConnectContext : DbContext
     #endregion
 
     #region PTL
-    public DbSet<PTLSitiosEntities> PTLSitios { get; set; }
+    public DbSet<PTLSitiosAPEntities> PTLSitiosAP { get; set; }
     public DbSet<PTLEnlacesSTEntities> PTLEnlacesST { get; set; }
-    public DbSet<PTLContentsELEntities> PTLContentsEL { get; set; }
+    public DbSet<PTLContenidoELEntities> PTLContenidoEL { get; set; }
     public DbSet<PTLRolesAPEntities> PTLRolesAP { get; set; }
-    public DbSet<PTLUsuariosEntities> PTLUsuarios { get; set; }
+    public DbSet<PTLUsuariosAPEntities> PTLUsuariosAP { get; set; }
     public DbSet<PTLUsuariosRolesEntities> PTLUsuariosRoles { get; set; }
     public DbSet<PTLAplicacionEntities> PTLAplicacion { get; set; }
     public DbSet<PTLModulosAPEntities> PTLModuloAP { get; set; }

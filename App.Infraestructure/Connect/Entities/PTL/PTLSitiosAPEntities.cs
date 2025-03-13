@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace App.Infraestructure.Connect.Entities.PTL;
 
-public class PTLSitiosEntities
+public class PTLSitiosAPEntities
 {
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Key]
@@ -12,5 +12,6 @@ public class PTLSitiosEntities
     public string? DescripcionSitio { get; set; }
     public string? UrlSitio { get; set; }
     public bool EstadoSitio { get; set; }
+    public int AplicacionId { get; set; }
 
 }

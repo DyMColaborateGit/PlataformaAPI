@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace App.Infraestructure.Connect.Configuration.PTL
 {
-    public class PTLUsuariosConfiguration : IEntityTypeConfiguration<PTLUsuariosEntities>
+    public class PTLUsuariosAPConfiguration : IEntityTypeConfiguration<PTLUsuariosAPEntities>
     {
-        public void Configure(EntityTypeBuilder<PTLUsuariosEntities> builder)
+        public void Configure(EntityTypeBuilder<PTLUsuariosAPEntities> builder)
         {
-            builder.ToTable("PTLUsuarios")
+            builder.ToTable("PTLUsuariosAP")
                 .HasKey(p => new { p.UsuarioId });
 
             builder.Property(p => p.UsuarioId)
@@ -30,6 +30,10 @@ namespace App.Infraestructure.Connect.Configuration.PTL
 
             builder.Property(p => p.EstadoUsuario)
                 .HasColumnType("bit");
+
+            builder.Property(p => p.AplicacionId)
+                .IsRequired()
+                .HasColumnType("int");
         }
     }
 }

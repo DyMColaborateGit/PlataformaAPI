@@ -7,25 +7,25 @@ using Microsoft.EntityFrameworkCore;
 
 namespace App.Infraestructure.Repositories.PTL
 {
-    public class PTLUsuariosRepository : IPTLUsuariosRepository
+    public class PTLUsuariosAPRepository : IPTLUsuariosAPRepository
     {
         private readonly ConnectContext _context;
         private readonly IMapper _mapper;
 
-        public PTLUsuariosRepository(ConnectContext context, IMapper mapper)
+        public PTLUsuariosAPRepository(ConnectContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task<List<PTLUsuariosModels>> ListaUsuarios()
+        public async Task<List<PTLUsuariosAPModels>> ListaUsuarios()
         {
             try
             {
-                var objResult = await _context.PTLUsuarios
+                var objResult = await _context.PTLUsuariosAP
                     .AsNoTracking()
                     .ToListAsync();
-                return _mapper.Map<List<PTLUsuariosModels>>(objResult);
+                return _mapper.Map<List<PTLUsuariosAPModels>>(objResult);
             }
             catch (Exception ex)
             {

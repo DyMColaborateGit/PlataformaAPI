@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace App.logic.IServices.PTL
 {
-    public interface IPTLUsuariosService
+    public interface IPTLUsuariosAPService
     {
-        Task<List<PTLUsuariosModels>> ListaUsuarios();
+        Task<List<PTLUsuariosAPModels>> ListaUsuarios();
     }
 }

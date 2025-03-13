@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace App.Infraestructure.Connect.Entities.PTL;
 
-public class PTLContentsELEntities
+public class PTLContenidoELEntities
 {
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Key]
-    public int ContentId { get; set; }
+    public int ContenidoId { get; set; }
     public int EnlaceId { get; set; }
-    public string? NombreContent { get; set; }
-    public string? DescripcionContent { get; set; }
+    public string? NombreContenido { get; set; }
+    public string? DescripcionContenido { get; set; }
     public string? Contenido { get; set; }
-    public bool EstadoContent { get; set; }
+    public bool EstadoContenido { get; set; }
 }

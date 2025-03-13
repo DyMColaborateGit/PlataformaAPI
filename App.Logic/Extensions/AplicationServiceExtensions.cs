@@ -37,12 +37,12 @@ namespace App.logic.Extensions
         public static void AddAplicacionServices(this IServiceCollection services)
         {
             //services.AddScoped<IPasswordHasher<SCP_UsuarioModels>, PasswordHasher<SCP_UsuarioModels>>();
-            services.AddScoped<IPTLSitiosService, PTLSitiosService>();
-            services.AddScoped<IPTLContentsELService, PTLContentsELService>();
+            services.AddScoped<IPTLSitiosAPService, PTLSitiosAPService>();
+            services.AddScoped<IPTLContenidoELService, PTLContenidoELService>();
             services.AddScoped<IPTLEnlacesSTService, PTLEnlacesSTService>();
 
             services.AddScoped<IPTLRolesAPServices, PTLRolesAPServices>();
-            services.AddScoped<IPTLUsuariosService, PTLUsuariosService>();
+            services.AddScoped<IPTLUsuariosAPService, PTLUsuariosAPService>();
             services.AddScoped<IPTLUsuariosRolesService, PTLUsuariosRolesService>();
 
             services.AddScoped<IPTLAplicacionService, PTLAplicacionService>();
@@ -69,12 +69,12 @@ namespace App.logic.Extensions
         public static void AddAplicacionRepositories(this IServiceCollection services)
         {
 
-            services.AddScoped<IPTLSitiosRepository, PTLSitiosRepository>();
-            services.AddScoped<IPTLContentsELRepository, PTLContentsELRepository>();
+            services.AddScoped<IPTLSitiosAPRepository, PTLSitiosAPRepository>();
+            services.AddScoped<IPTLContenidoELRepository, PTLContenidoELRepository>();
             services.AddScoped<IPTLEnlasesSTRepository, PTLEnlasesSTRepository>();
 
             services.AddScoped<IPTLRolesAPRespository, PTLRolesAPRespository>();
-            services.AddScoped<IPTLUsuariosRepository, PTLUsuariosRepository>();
+            services.AddScoped<IPTLUsuariosAPRepository, PTLUsuariosAPRepository>();
             services.AddScoped<IPTLUsuariosRolesRepository, PTLUsuariosRolesRepository>();
 
             services.AddScoped<IPTLAplicacionRepository, PTLAplicacionRepository>();

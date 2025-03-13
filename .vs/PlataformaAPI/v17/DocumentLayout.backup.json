@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|e:\\code\\plataformadym\\plataformaapi\\app.models\\models\\ptl\\ptlusuariosmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54432226-743A-44BC-B51B-4E1C49881B4B}|App.Models\\App.Models.csproj|solutionrelative:app.models\\models\\ptl\\ptlusuariosmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\entities\\ptl\\ptlusuariosentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\entities\\ptl\\ptlusuariosentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\configuration\\ptl\\ptlusuariosconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\configuration\\ptl\\ptlusuariosconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|c:\\users\\dymdesarrollo\\desktop\\code\\plataformadym\\plataformaapi\\app.infraestructure\\connect\\configuration\\ptl\\ptlsitiosapconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\connect\\configuration\\ptl\\ptlsitiosapconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,40 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PTLUsuariosModels.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLUsuariosModels.cs",
-              "RelativeDocumentMoniker": "App.Models\\Models\\PTL\\PTLUsuariosModels.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Models\\Models\\PTL\\PTLUsuariosModels.cs",
-              "RelativeToolTip": "App.Models\\Models\\PTL\\PTLUsuariosModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Title": "PTLSitiosAPConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLSitiosAPConfiguration.cs",
+              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLSitiosAPConfiguration.cs",
+              "ToolTip": "C:\\Users\\DYMDesarrollo\\Desktop\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLSitiosAPConfiguration.cs",
+              "RelativeToolTip": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLSitiosAPConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:00:51.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PTLUsuariosEntities.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLUsuariosEntities.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLUsuariosEntities.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Entities\\PTL\\PTLUsuariosEntities.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\Entities\\PTL\\PTLUsuariosEntities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:00:28.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PTLUsuariosConfiguration.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLUsuariosConfiguration.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLUsuariosConfiguration.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Connect\\Configuration\\PTL\\PTLUsuariosConfiguration.cs",
-              "RelativeToolTip": "App.Infraestructure\\Connect\\Configuration\\PTL\\PTLUsuariosConfiguration.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:59:55.506Z",
+              "WhenOpened": "2025-03-13T20:47:53.713Z",
               "EditorCaption": ""
             }
           ]
@@ -92,10 +58,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{f2bd8fb8-fc94-3dae-a733-fd993c73cc87}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}"
             },
             {
               "$type": "Bookmark",
