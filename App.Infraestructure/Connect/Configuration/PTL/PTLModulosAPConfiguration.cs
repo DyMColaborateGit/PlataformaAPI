@@ -8,7 +8,7 @@ namespace App.Infraestructure.Connect.Configuration.PTL
     {
         public void Configure(EntityTypeBuilder<PTLModulosAPEntities> builder)
         {
-            builder.ToTable("PTLModuloAP")
+            builder.ToTable("PTLModulosAP")
                 .HasKey(p => new { p.ModuloId });
 
             builder.Property(p => p.ModuloId)

@@ -6,10 +6,10 @@
     "version": "v1"
   },
   "paths": {
-    "/api/PTLAplicacion/ListaAplicaciones": {
+    "/api/PTLAplicaciones/ListaAplicaciones": {
       "get": {
         "tags": [
-          "PTLAplicacion"
+          "PTLAplicaciones"
         ],
         "responses": {
           "200": {
@@ -17,17 +17,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionesModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionesModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionesModelsListGetResponse"
                 }
               }
             }
@@ -150,10 +150,10 @@
         }
       }
     },
-    "/api/PTLContenidoEL/ListaContenidos": {
+    "/api/PTLContenidosEL/ListaContenidos": {
       "get": {
         "tags": [
-          "PTLContenidoEL"
+          "PTLContenidosEL"
         ],
         "responses": {
           "200": {
@@ -161,17 +161,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidosELModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidosELModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidosELModelsListGetResponse"
                 }
               }
             }
@@ -366,10 +366,10 @@
         }
       }
     },
-    "/api/PTLHelpDeskTicketAP/ListaTickets": {
+    "/api/PTLHelpDeskTicketsAP/ListaTickets": {
       "get": {
         "tags": [
-          "PTLHelpDeskTicketAP"
+          "PTLHelpDeskTicketsAP"
         ],
         "responses": {
           "200": {
@@ -377,17 +377,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketsAPModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketsAPModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketsAPModelsListGetResponse"
                 }
               }
             }
@@ -870,10 +870,10 @@
         }
       }
     },
-    "/api/PTLRequerimientoHD/ListaRequerimientos": {
+    "/api/PTLRequerimientosHD/ListaRequerimientos": {
       "get": {
         "tags": [
-          "PTLRequerimientoHD"
+          "PTLRequerimientosHD"
         ],
         "responses": {
           "200": {
@@ -881,17 +881,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRequerimientosHDModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRequerimientosHDModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRequerimientosHDModelsListGetResponse"
                 }
               }
             }
@@ -1014,10 +1014,10 @@
         }
       }
     },
-    "/api/PTLSeguimientoRQ/ListaSeguimientos": {
+    "/api/PTLSeguimientosRQ/ListaSeguimientos": {
       "get": {
         "tags": [
-          "PTLSeguimientoRQ"
+          "PTLSeguimientosRQ"
         ],
         "responses": {
           "200": {
@@ -1025,17 +1025,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSeguimientoRQModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSeguimientosRQModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSeguimientoRQModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSeguimientosRQModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSeguimientoRQModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSeguimientosRQModelsListGetResponse"
                 }
               }
             }
@@ -1158,10 +1158,10 @@
         }
       }
     },
-    "/api/PTLSuscriptorAP/ListaSuscriptores": {
+    "/api/PTLSuscriptoresAP/ListaSuscriptores": {
       "get": {
         "tags": [
-          "PTLSuscriptorAP"
+          "PTLSuscriptoresAP"
         ],
         "responses": {
           "200": {
@@ -1169,17 +1169,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSuscriptorAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSuscriptoresAPModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSuscriptorAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSuscriptoresAPModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSuscriptorAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSuscriptoresAPModelsListGetResponse"
                 }
               }
             }
@@ -1302,10 +1302,10 @@
         }
       }
     },
-    "/api/PTLUsuariosEmpresa/ListaUsuariosEmpresa": {
+    "/api/PTLUsuariosEmpresas/ListaUsuariosEmpresa": {
       "get": {
         "tags": [
-          "PTLUsuariosEmpresa"
+          "PTLUsuariosEmpresas"
         ],
         "responses": {
           "200": {
@@ -1313,17 +1313,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosEmpresaModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosEmpresasModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosEmpresaModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosEmpresasModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosEmpresaModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosEmpresasModelsListGetResponse"
                 }
               }
             }
@@ -1593,7 +1593,7 @@
   },
   "components": {
     "schemas": {
-      "PTLAplicacionModels": {
+      "PTLAplicacionesModels": {
         "type": "object",
         "properties": {
           "aplicacionId": {
@@ -1614,7 +1614,7 @@
         },
         "additionalProperties": false
       },
-      "PTLAplicacionModelsListGetResponse": {
+      "PTLAplicacionesModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1635,7 +1635,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLAplicacionModels"
+              "$ref": "#/components/schemas/PTLAplicacionesModels"
             },
             "nullable": true
           }
@@ -1699,7 +1699,7 @@
         },
         "additionalProperties": false
       },
-      "PTLContenidoELModels": {
+      "PTLContenidosELModels": {
         "type": "object",
         "properties": {
           "contenidoId": {
@@ -1728,7 +1728,7 @@
         },
         "additionalProperties": false
       },
-      "PTLContenidoELModelsListGetResponse": {
+      "PTLContenidosELModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1749,7 +1749,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLContenidoELModels"
+              "$ref": "#/components/schemas/PTLContenidosELModels"
             },
             "nullable": true
           }
@@ -1866,7 +1866,7 @@
         },
         "additionalProperties": false
       },
-      "PTLHelpDeskTicketAPModels": {
+      "PTLHelpDeskTicketsAPModels": {
         "type": "object",
         "properties": {
           "ticketId": {
@@ -1891,7 +1891,7 @@
         },
         "additionalProperties": false
       },
-      "PTLHelpDeskTicketAPModelsListGetResponse": {
+      "PTLHelpDeskTicketsAPModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1912,7 +1912,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLHelpDeskTicketAPModels"
+              "$ref": "#/components/schemas/PTLHelpDeskTicketsAPModels"
             },
             "nullable": true
           }
@@ -2236,7 +2236,7 @@
         },
         "additionalProperties": false
       },
-      "PTLRequerimientoHDModels": {
+      "PTLRequerimientosHDModels": {
         "type": "object",
         "properties": {
           "requerimientoId": {
@@ -2261,7 +2261,7 @@
         },
         "additionalProperties": false
       },
-      "PTLRequerimientoHDModelsListGetResponse": {
+      "PTLRequerimientosHDModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2282,7 +2282,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLRequerimientoHDModels"
+              "$ref": "#/components/schemas/PTLRequerimientosHDModels"
             },
             "nullable": true
           }
@@ -2342,7 +2342,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSeguimientoRQModels": {
+      "PTLSeguimientosRQModels": {
         "type": "object",
         "properties": {
           "seguimientoId": {
@@ -2367,7 +2367,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSeguimientoRQModelsListGetResponse": {
+      "PTLSeguimientosRQModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2388,7 +2388,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLSeguimientoRQModels"
+              "$ref": "#/components/schemas/PTLSeguimientosRQModels"
             },
             "nullable": true
           }
@@ -2452,7 +2452,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSuscriptorAPModels": {
+      "PTLSuscriptoresAPModels": {
         "type": "object",
         "properties": {
           "suscriptorId": {
@@ -2477,7 +2477,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSuscriptorAPModelsListGetResponse": {
+      "PTLSuscriptoresAPModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2498,7 +2498,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLSuscriptorAPModels"
+              "$ref": "#/components/schemas/PTLSuscriptoresAPModels"
             },
             "nullable": true
           }
@@ -2562,7 +2562,7 @@
         },
         "additionalProperties": false
       },
-      "PTLUsuariosEmpresaModels": {
+      "PTLUsuariosEmpresasModels": {
         "type": "object",
         "properties": {
           "usuarioEmpresaId": {
@@ -2580,7 +2580,7 @@
         },
         "additionalProperties": false
       },
-      "PTLUsuariosEmpresaModelsListGetResponse": {
+      "PTLUsuariosEmpresasModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2601,7 +2601,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLUsuariosEmpresaModels"
+              "$ref": "#/components/schemas/PTLUsuariosEmpresasModels"
             },
             "nullable": true
           }
