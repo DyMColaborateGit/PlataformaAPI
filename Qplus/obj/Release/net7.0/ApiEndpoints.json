@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "Qplus.Controllers.PTL.PTLAplicacionController",
+    "ContainingType": "Qplus.Controllers.PTL.PTLAplicacionesController",
     "Method": "ListaAplicaciones",
-    "RelativePath": "api/PTLAplicacion/ListaAplicaciones",
+    "RelativePath": "api/PTLAplicaciones/ListaAplicaciones",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLAplicacionModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLAplicacionesModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,16 +86,16 @@
     ]
   },
   {
-    "ContainingType": "Qplus.Controllers.PTL.PTLContenidoELController",
+    "ContainingType": "Qplus.Controllers.PTL.PTLContenidosELController",
     "Method": "ListaContenidos",
-    "RelativePath": "api/PTLContenidoEL/ListaContenidos",
+    "RelativePath": "api/PTLContenidosEL/ListaContenidos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLContenidoELModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLContenidosELModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -215,16 +215,16 @@
     ]
   },
   {
-    "ContainingType": "Plataforma.Controllers.PTL.PTLHelpDeskTicketAPController",
+    "ContainingType": "Plataforma.Controllers.PTL.PTLHelpDeskTicketsAPController",
     "Method": "ListaTickets",
-    "RelativePath": "api/PTLHelpDeskTicketAP/ListaTickets",
+    "RelativePath": "api/PTLHelpDeskTicketsAP/ListaTickets",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLHelpDeskTicketAPModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLHelpDeskTicketsAPModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -516,16 +516,16 @@
     ]
   },
   {
-    "ContainingType": "Plataforma.Controllers.PTL.PTLRequerimientoHDController",
+    "ContainingType": "Plataforma.Controllers.PTL.PTLRequerimientosHDController",
     "Method": "ListaRequerimientos",
-    "RelativePath": "api/PTLRequerimientoHD/ListaRequerimientos",
+    "RelativePath": "api/PTLRequerimientosHD/ListaRequerimientos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLRequerimientoHDModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLRequerimientosHDModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -602,16 +602,16 @@
     ]
   },
   {
-    "ContainingType": "Plataforma.Controllers.PTL.PTLSeguimientoRQController",
+    "ContainingType": "Plataforma.Controllers.PTL.PTLSeguimientosRQController",
     "Method": "ListaSeguimientos",
-    "RelativePath": "api/PTLSeguimientoRQ/ListaSeguimientos",
+    "RelativePath": "api/PTLSeguimientosRQ/ListaSeguimientos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLSeguimientoRQModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLSeguimientosRQModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -688,16 +688,16 @@
     ]
   },
   {
-    "ContainingType": "Plataforma.Controllers.PTL.PTLSuscriptorAPController",
+    "ContainingType": "Plataforma.Controllers.PTL.PTLSuscriptoresAPController",
     "Method": "ListaSuscriptores",
-    "RelativePath": "api/PTLSuscriptorAP/ListaSuscriptores",
+    "RelativePath": "api/PTLSuscriptoresAP/ListaSuscriptores",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLSuscriptorAPModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLSuscriptoresAPModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -774,16 +774,16 @@
     ]
   },
   {
-    "ContainingType": "Plataforma.Controllers.PTL.PTLUsuariosEmpresaController",
+    "ContainingType": "Plataforma.Controllers.PTL.PTLUsuariosEmpresasController",
     "Method": "ListaUsuariosEmpresa",
-    "RelativePath": "api/PTLUsuariosEmpresa/ListaUsuariosEmpresa",
+    "RelativePath": "api/PTLUsuariosEmpresas/ListaUsuariosEmpresa",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLUsuariosEmpresaModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "App.Models.Global.GetResponse\u00601[[System.Collections.Generic.List\u00601[[App.Models.Models.PTL.PTLUsuariosEmpresasModels, App.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

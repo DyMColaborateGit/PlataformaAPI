@@ -22,7 +22,7 @@ namespace App.Infraestructure.Repositories.PTL
         {
             try
             {
-                var objResult = await _context.PTLModuloAP
+                var objResult = await _context.PTLModulosAP
                     .AsNoTracking()
                     .ToListAsync();
                 return _mapper.Map<List<PTLModulosAPModels>>(objResult);

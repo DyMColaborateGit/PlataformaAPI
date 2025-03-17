@@ -38,24 +38,24 @@ namespace App.logic.Extensions
         {
             //services.AddScoped<IPasswordHasher<SCP_UsuarioModels>, PasswordHasher<SCP_UsuarioModels>>();
             services.AddScoped<IPTLSitiosAPService, PTLSitiosAPService>();
-            services.AddScoped<IPTLContenidoELService, PTLContenidoELService>();
+            services.AddScoped<IPTLContenidosELService, PTLContenidosELService>();
             services.AddScoped<IPTLEnlacesSTService, PTLEnlacesSTService>();
 
             services.AddScoped<IPTLRolesAPServices, PTLRolesAPServices>();
             services.AddScoped<IPTLUsuariosAPService, PTLUsuariosAPService>();
             services.AddScoped<IPTLUsuariosRolesService, PTLUsuariosRolesService>();
 
-            services.AddScoped<IPTLAplicacionService, PTLAplicacionService>();
+            services.AddScoped<IPTLAplicacionesService, PTLAplicacionesService>();
             services.AddScoped<IPTLModulosAPService, PTLModulosAPService>();
             services.AddScoped<IPTLVersionesAPService, PTLVersionesAPService>();
-            services.AddScoped<IPTLHelpDeskTicketAPService, PTLHelpDeskTicketAPService>();
-            services.AddScoped<IPTLRequerimientoHDService, PTLRequerimientoHDService>();
-            services.AddScoped<IPTLSeguimientoRQService, PTLSeguimientoRQService>();
-            services.AddScoped<IPTLSuscriptorAPService, PTLSuscriptorAPService>();
+            services.AddScoped<IPTLHelpDeskTicketsAPService, PTLHelpDeskTicketsAPService>();
+            services.AddScoped<IPTLRequerimientosHDService, PTLRequerimientosHDService>();
+            services.AddScoped<IPTLSeguimientosRQService, PTLSeguimientosRQService>();
+            services.AddScoped<IPTLSuscriptoresAPService, PTLSuscriptoresAPService>();
             services.AddScoped<IPTLUsuariosSTService, PTLUsuariosSTService>();
             services.AddScoped<IPTLConexionesBDService, PTLConexionesBDService>();
             services.AddScoped<IPTLEmpresasSTService, PTLEmpresasSTService>();
-            services.AddScoped<IPTLUsuariosEmpresaService, PTLUsuariosEmpresaService>();
+            services.AddScoped<IPTLUsuariosEmpresasService, PTLUsuariosEmpresasService>();
             services.AddScoped<IPTLLicenciasService, PTLLicenciasService>();
             services.AddScoped<IPTLPaquetesService, PTLPaquetesService>();
             services.AddScoped<IPTLLogActualizacionesService, PTLLogActualizacionesService>();
@@ -70,24 +70,24 @@ namespace App.logic.Extensions
         {
 
             services.AddScoped<IPTLSitiosAPRepository, PTLSitiosAPRepository>();
-            services.AddScoped<IPTLContenidoELRepository, PTLContenidoELRepository>();
+            services.AddScoped<IPTLContenidosELRepository, PTLContenidosELRepository>();
             services.AddScoped<IPTLEnlasesSTRepository, PTLEnlasesSTRepository>();
 
             services.AddScoped<IPTLRolesAPRespository, PTLRolesAPRespository>();
             services.AddScoped<IPTLUsuariosAPRepository, PTLUsuariosAPRepository>();
             services.AddScoped<IPTLUsuariosRolesRepository, PTLUsuariosRolesRepository>();
 
-            services.AddScoped<IPTLAplicacionRepository, PTLAplicacionRepository>();
+            services.AddScoped<IPTLAplicacionesRepository, PTLAplicacionesRepository>();
             services.AddScoped<IPTLModulosAPRepository, PTLModulosAPRepository>();
             services.AddScoped<IPTLVersionesAPRepository, PTLVersionesAPRepository>();
-            services.AddScoped<IPTLHelpDeskTicketAPRepository, PTLHelpDeskTicketAPRepository>();
-            services.AddScoped<IPTLRequerimientoHDRepository, PTLRequerimientoHDRepository>();
-            services.AddScoped<IPTLSeguimientoRQRepository, PTLSeguimientoRQRepository>();
-            services.AddScoped<IPTLSuscriptorAPRepository, PTLSuscriptorAPRepository>();
+            services.AddScoped<IPTLHelpDeskTicketsAPRepository, PTLHelpDeskTicketsAPRepository>();
+            services.AddScoped<IPTLRequerimientosHDRepository, PTLRequerimientosHDRepository>();
+            services.AddScoped<IPTLSeguimientosRQRepository, PTLSeguimientosRQRepository>();
+            services.AddScoped<IPTLSuscriptoresAPRepository, PTLSuscriptoresAPRepository>();
             services.AddScoped<IPTLUsuariosSTRepository, PTLUsuariosSTRepository>();
             services.AddScoped<IPTLConexionesBDRepository, PTLConexionesBDRepository>();
             services.AddScoped<IPTLEmpresasSTRepository, PTLEmpresasSTRepository>();
-            services.AddScoped<IPTLUsuariosEmpresaRepository, PTLUsuariosEmpresaRepository>();
+            services.AddScoped<IPTLUsuariosEmpresasRepository, PTLUsuariosEmpresasRepository>();
             services.AddScoped<IPTLLicenciasRepository, PTLLicenciasRepository>();
             services.AddScoped<IPTLPaquetesRepository, PTLPaquetesRepository>();
             services.AddScoped<IPTLLogActualizacionesRepository, PTLLogActualizacionesRepository>();
