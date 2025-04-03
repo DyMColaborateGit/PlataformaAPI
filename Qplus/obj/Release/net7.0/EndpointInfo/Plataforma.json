@@ -2420,6 +2420,10 @@
           "aplicacionId": {
             "type": "integer",
             "format": "int32"
+          },
+          "puertoSitio": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
