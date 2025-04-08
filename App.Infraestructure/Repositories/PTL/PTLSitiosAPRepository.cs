@@ -67,5 +67,50 @@ namespace App.Infraestructure.Repositories.PTL
                 throw;
             }
         }
+        public async Task<PTLSitiosAPModels> PutModificarSitio(PTLSitiosAPModels ObjUpdate)
+        {
+            var UpdateRegistro = _context.PTLSitiosAP.FirstOrDefault(p => p.SitioId == ObjUpdate.SitioId);
+            try
+            {
+                if (UpdateRegistro != null)
+                {
+                    #region Update
+                    UpdateRegistro.NombreSitio = ObjUpdate.NombreSitio;
+                    UpdateRegistro.DescripcionSitio = ObjUpdate.DescripcionSitio;
+                    UpdateRegistro.UrlSitio = ObjUpdate.UrlSitio;
+                    UpdateRegistro.EstadoSitio = ObjUpdate.EstadoSitio;
+                    UpdateRegistro.PuertoSitio = ObjUpdate.PuertoSitio;
+                    #endregion
+                }
+
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogHelpers.LogException("PutModificarSitio", ex, JsonConvert.SerializeObject(ObjUpdate));
+                throw;
+            }
+            return _mapper.Map<PTLSitiosAPModels>(UpdateRegistro);
+        }
+        public async Task<PTLSitiosAPModels> DeleteSitio(int SitioId)
+        {
+            var objDelete = await _context.PTLSitiosAP.FirstOrDefaultAsync(x => x.SitioId == SitioId);
+
+            try
+            {
+                if (objDelete != null)
+                {
+                    _context.PTLSitiosAP.Remove(objDelete);
+                    await _context.SaveChangesAsync();
+                }
+                
+                return _mapper.Map<PTLSitiosAPModels>(objDelete);
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogHelpers.LogException("DeleteSitio", ex, SitioId.ToString());
+                throw;
+            }
+        }
     }
 }
