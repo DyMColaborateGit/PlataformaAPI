@@ -9,24 +9,24 @@ public class MappingProfiles: Profile
     public MappingProfiles() 
     {
         CreateMap<PTLSitiosAPEntities, PTLSitiosAPModels>().ReverseMap();
-        CreateMap<PTLContenidoELEntities, PTLContenidoELModels>().ReverseMap();
+        CreateMap<PTLContenidosELEntities, PTLContenidosELModels>().ReverseMap();
         CreateMap<PTLEnlacesSTEntities, PTLEnlacesSTModels>().ReverseMap();
 
         CreateMap<PTLRolesAPEntities, PTLRolesAPModels>().ReverseMap();
         CreateMap<PTLUsuariosAPEntities, PTLUsuariosAPModels>().ReverseMap();
         CreateMap<PTLUsuariosRolesEntities, PTLUsuariosRolesModels>().ReverseMap();
 
-        CreateMap<PTLAplicacionEntities, PTLAplicacionModels>().ReverseMap();
+        CreateMap<PTLAplicacionesEntities, PTLAplicacionesModels>().ReverseMap();
         CreateMap<PTLModulosAPEntities, PTLModulosAPModels>().ReverseMap();
         CreateMap<PTLVersionesAPEntities, PTLVersionesAPModels>().ReverseMap();
-        CreateMap<PTLHelpDeskTicketAPEntities, PTLHelpDeskTicketAPModels>().ReverseMap();
-        CreateMap<PTLRequerimientoHDEntities, PTLRequerimientoHDModels>().ReverseMap();
-        CreateMap<PTLSeguimientoRQEntities, PTLSeguimientoRQModels>().ReverseMap();
+        CreateMap<PTLHelpDeskTicketsAPEntities, PTLHelpDeskTicketsAPModels>().ReverseMap();
+        CreateMap<PTLRequerimientosHDEntities, PTLRequerimientosHDModels>().ReverseMap();
+        CreateMap<PTLSeguimientosRQEntities, PTLSeguimientosRQModels>().ReverseMap();
         CreateMap<PTLUsuariosSTEntities,  PTLUsuariosSTModels>().ReverseMap();
-        CreateMap<PTLSuscriptorAPEntities, PTLSuscriptorAPModels>().ReverseMap();
-        CreateMap<PTLConexionesBDEntities,  PTLSuscriptorAPModels>().ReverseMap();
+        CreateMap<PTLSuscriptoresAPEntities, PTLSuscriptoresAPModels>().ReverseMap();
+        CreateMap<PTLConexionesBDEntities,  PTLSuscriptoresAPModels>().ReverseMap();
         CreateMap<PTLEmpresasSTEntities, PTLEmpresasSTModels>().ReverseMap();
-        CreateMap<PTLUsuariosEmpresaEntities, PTLUsuariosEmpresaModels>().ReverseMap();
+        CreateMap<PTLUsuariosEmpresaEntities, PTLUsuariosEmpresasModels>().ReverseMap();
         CreateMap<PTLLicenciasEntities, PTLLicenciasModels>().ReverseMap();
         CreateMap<PTLPaquetesEntities, PTLPaquetesModels>().ReverseMap();
         CreateMap<PTLLogActualizacionesEntities, PTLLogActualizacionesModels>().ReverseMap();

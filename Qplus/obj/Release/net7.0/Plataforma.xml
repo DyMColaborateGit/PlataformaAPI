@@ -4,12 +4,12 @@
         <name>Plataforma</name>
     </assembly>
     <members>
-        <member name="M:Qplus.Controllers.PTL.PTLAplicacionController.ListaAplicaciones">
+        <member name="M:Qplus.Controllers.PTL.PTLAplicacionesController.ListaAplicaciones">
             <response code="200">OK. Devuelve el objeto solicitado.</response> 
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
         </member>
-        <member name="M:Qplus.Controllers.PTL.PTLContenidoELController.ListaContenidos">
+        <member name="M:Qplus.Controllers.PTL.PTLContenidosELController.ListaContenidos">
             <response code="200">OK. Devuelve el objeto solicitado.</response> 
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
@@ -34,6 +34,21 @@
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
         </member>
+        <member name="M:Qplus.Controllers.PTL.PTLSitiosAPController.GetSitioById(System.Int32)">
+            <response code="200">OK. Devuelve el objeto solicitado.</response> 
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:Qplus.Controllers.PTL.PTLSitiosAPController.PutModificarSitio(App.Models.Models.PTL.PTLSitiosAPModels)">
+            <response code="200">OK. Devuelve el objeto solicitado.</response> 
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
+        <member name="M:Qplus.Controllers.PTL.PTLSitiosAPController.DeleteSitio(System.Int32)">
+            <response code="200">OK. Devuelve el objeto solicitado.</response> 
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
+            <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
+        </member>
         <member name="M:Qplus.Controllers.PTL.PTLUsuariosAPController.ListaUsuarios">
             <response code="200">OK. Devuelve el objeto solicitado.</response> 
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
@@ -54,7 +69,7 @@
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
         </member>
-        <member name="M:Plataforma.Controllers.PTL.PTLHelpDeskTicketAPController.ListaTickets">
+        <member name="M:Plataforma.Controllers.PTL.PTLHelpDeskTicketsAPController.ListaTickets">
             <response code="200">OK. Devuelve el objeto solicitado.</response> 
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
@@ -84,22 +99,22 @@
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
         </member>
-        <member name="M:Plataforma.Controllers.PTL.PTLRequerimientoHDController.ListaRequerimientos">
+        <member name="M:Plataforma.Controllers.PTL.PTLRequerimientosHDController.ListaRequerimientos">
             <response code="200">OK. Devuelve el objeto solicitado.</response> 
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
         </member>
-        <member name="M:Plataforma.Controllers.PTL.PTLSeguimientoRQController.ListaSeguimientos">
+        <member name="M:Plataforma.Controllers.PTL.PTLSeguimientosRQController.ListaSeguimientos">
             <response code="200">OK. Devuelve el objeto solicitado.</response> 
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
         </member>
-        <member name="M:Plataforma.Controllers.PTL.PTLSuscriptorAPController.ListaSuscriptores">
+        <member name="M:Plataforma.Controllers.PTL.PTLSuscriptoresAPController.ListaSuscriptores">
             <response code="200">OK. Devuelve el objeto solicitado.</response> 
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>
         </member>
-        <member name="M:Plataforma.Controllers.PTL.PTLUsuariosEmpresaController.ListaUsuariosEmpresa">
+        <member name="M:Plataforma.Controllers.PTL.PTLUsuariosEmpresasController.ListaUsuariosEmpresa">
             <response code="200">OK. Devuelve el objeto solicitado.</response> 
             <response code="401">Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.</response>  
             <response code="404">NotFound. No se ha encontrado el objeto solicitado.</response>

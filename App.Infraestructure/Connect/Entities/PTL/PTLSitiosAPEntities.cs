@@ -13,5 +13,6 @@ public class PTLSitiosAPEntities
     public string? UrlSitio { get; set; }
     public bool EstadoSitio { get; set; }
     public int AplicacionId { get; set; }
+    public int PuertoSitio { get; set; }
 
 }
