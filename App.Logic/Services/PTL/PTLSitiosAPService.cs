@@ -17,5 +17,36 @@ namespace App.logic.Services.PTL
         {
             return await _PTLSitiosAPRepository.ListaSitios();
         }
+        public async Task<PTLSitiosAPModels> GetSitioById(int SitioId)
+        {
+            return await _PTLSitiosAPRepository.GetSitioById(SitioId);
+        }
+
+        public async Task<PTLSitiosAPModels> PostInsertarSitios(PTLSitiosAPModels ObjInsertarSitio, string NombreSitio, string DescripcionSitio, string UrlSitio, bool EstadoSitio, int PuertoSitio)
+        {
+            ObjInsertarSitio.NombreSitio = NombreSitio;
+            ObjInsertarSitio.DescripcionSitio = DescripcionSitio;
+            ObjInsertarSitio.UrlSitio = UrlSitio;
+            ObjInsertarSitio.EstadoSitio = EstadoSitio;
+            ObjInsertarSitio.PuertoSitio = PuertoSitio;
+
+            return await _PTLSitiosAPRepository.PostInsertarSitios(ObjInsertarSitio);
+        }
+        public async Task<PTLSitiosAPModels> PutModificarSitio(PTLSitiosAPModels ObjModificarSitio, string NombreSitio, string DescripcionSitio, string UrlSitio, bool EstadoSitio, int PuertoSitio)
+        {
+            ObjModificarSitio.NombreSitio = NombreSitio;
+            ObjModificarSitio.DescripcionSitio = DescripcionSitio;
+            ObjModificarSitio.UrlSitio = UrlSitio;
+            ObjModificarSitio.EstadoSitio = EstadoSitio;
+            ObjModificarSitio.PuertoSitio = PuertoSitio;
+
+            return await _PTLSitiosAPRepository.PutModificarSitio(ObjModificarSitio);
+        }
+        public async Task<PTLSitiosAPModels> DeleteSitio(int SitioId)
+        {
+            var ListResult = await _PTLSitiosAPRepository.DeleteSitio(SitioId);
+            return ListResult;
+        }
+
     }
 }

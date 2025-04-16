@@ -35,6 +35,10 @@ namespace App.Infraestructure.Connect.Configuration.PTL
             builder.Property(p => p.AplicacionId)
                  .IsRequired()
                  .HasColumnType("int");
+
+            builder.Property(p => p.PuertoSitio)
+                .IsRequired()
+                .HasColumnType("int");
         }
     }
 }
