@@ -6,10 +6,10 @@
     "version": "v1"
   },
   "paths": {
-    "/api/PTLAplicacion/ListaAplicaciones": {
+    "/api/PTLAplicaciones/ListaAplicaciones": {
       "get": {
         "tags": [
-          "PTLAplicacion"
+          "PTLAplicaciones"
         ],
         "responses": {
           "200": {
@@ -17,17 +17,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionesModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionesModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLAplicacionModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLAplicacionesModelsListGetResponse"
                 }
               }
             }
@@ -150,10 +150,10 @@
         }
       }
     },
-    "/api/PTLContenidoEL/ListaContenidos": {
+    "/api/PTLContenidosEL/ListaContenidos": {
       "get": {
         "tags": [
-          "PTLContenidoEL"
+          "PTLContenidosEL"
         ],
         "responses": {
           "200": {
@@ -161,17 +161,367 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidosELModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidosELModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLContenidoELModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLContenidosELModelsListGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLContenidosEL/GetContenidoById/{ContenidoId}": {
+      "get": {
+        "tags": [
+          "PTLContenidosEL"
+        ],
+        "parameters": [
+          {
+            "name": "ContenidoId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLContenidosEL/PostInsertarContenido": {
+      "post": {
+        "tags": [
+          "PTLContenidosEL"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLContenidosELModels"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLContenidosELModels"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLContenidosELModels"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLContenidosEL/PutModificarContenido": {
+      "put": {
+        "tags": [
+          "PTLContenidosEL"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLContenidosELModels"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLContenidosELModels"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLContenidosELModels"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLContenidosEL/DeleteContenido/{ContenidoId}": {
+      "delete": {
+        "tags": [
+          "PTLContenidosEL"
+        ],
+        "parameters": [
+          {
+            "name": "ContenidoId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLContenidosELModelsGetResponse"
                 }
               }
             }
@@ -366,10 +716,22 @@
         }
       }
     },
-    "/api/PTLHelpDeskTicketAP/ListaTickets": {
+    "/api/PTLEnlacesST/GetEnlaceById/{EnlaceId}": {
       "get": {
         "tags": [
-          "PTLHelpDeskTicketAP"
+          "PTLEnlacesST"
+        ],
+        "parameters": [
+          {
+            "name": "EnlaceId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -377,17 +739,355 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLHelpDeskTicketAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLEnlacesST/PostInsertarEnlace": {
+      "post": {
+        "tags": [
+          "PTLEnlacesST"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLEnlacesSTModels"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLEnlacesSTModels"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLEnlacesSTModels"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLEnlacesST/PutModificarEnlace": {
+      "put": {
+        "tags": [
+          "PTLEnlacesST"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLEnlacesSTModels"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLEnlacesSTModels"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLEnlacesSTModels"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLEnlacesST/DeleteEnlace/{EnlaceId}": {
+      "delete": {
+        "tags": [
+          "PTLEnlacesST"
+        ],
+        "parameters": [
+          {
+            "name": "EnlaceId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLEnlacesSTModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLHelpDeskTicketsAP/ListaTickets": {
+      "get": {
+        "tags": [
+          "PTLHelpDeskTicketsAP"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketsAPModelsListGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketsAPModelsListGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLHelpDeskTicketsAPModelsListGetResponse"
                 }
               }
             }
@@ -870,10 +1570,10 @@
         }
       }
     },
-    "/api/PTLRequerimientoHD/ListaRequerimientos": {
+    "/api/PTLRequerimientosHD/ListaRequerimientos": {
       "get": {
         "tags": [
-          "PTLRequerimientoHD"
+          "PTLRequerimientosHD"
         ],
         "responses": {
           "200": {
@@ -881,17 +1581,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRequerimientosHDModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRequerimientosHDModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLRequerimientoHDModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLRequerimientosHDModelsListGetResponse"
                 }
               }
             }
@@ -1014,10 +1714,10 @@
         }
       }
     },
-    "/api/PTLSeguimientoRQ/ListaSeguimientos": {
+    "/api/PTLSeguimientosRQ/ListaSeguimientos": {
       "get": {
         "tags": [
-          "PTLSeguimientoRQ"
+          "PTLSeguimientosRQ"
         ],
         "responses": {
           "200": {
@@ -1025,17 +1725,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSeguimientoRQModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSeguimientosRQModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSeguimientoRQModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSeguimientosRQModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSeguimientoRQModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSeguimientosRQModelsListGetResponse"
                 }
               }
             }
@@ -1158,10 +1858,22 @@
         }
       }
     },
-    "/api/PTLSuscriptorAP/ListaSuscriptores": {
+    "/api/PTLSitiosAP/GetSitioById/{SitioId}": {
       "get": {
         "tags": [
-          "PTLSuscriptorAP"
+          "PTLSitiosAP"
+        ],
+        "parameters": [
+          {
+            "name": "SitioId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -1169,17 +1881,355 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSuscriptorAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSuscriptorAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLSuscriptorAPModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLSitiosAP/PostInsertarSitios": {
+      "post": {
+        "tags": [
+          "PTLSitiosAP"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLSitiosAPModels"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLSitiosAPModels"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLSitiosAPModels"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLSitiosAP/PutModificarSitio": {
+      "put": {
+        "tags": [
+          "PTLSitiosAP"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLSitiosAPModels"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLSitiosAPModels"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLSitiosAPModels"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLSitiosAP/DeleteSitio/{SitioId}": {
+      "delete": {
+        "tags": [
+          "PTLSitiosAP"
+        ],
+        "parameters": [
+          {
+            "name": "SitioId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSitiosAPModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLSuscriptoresAP/ListaSuscriptores": {
+      "get": {
+        "tags": [
+          "PTLSuscriptoresAP"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSuscriptoresAPModelsListGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSuscriptoresAPModelsListGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLSuscriptoresAPModelsListGetResponse"
                 }
               }
             }
@@ -1302,10 +2352,10 @@
         }
       }
     },
-    "/api/PTLUsuariosEmpresa/ListaUsuariosEmpresa": {
+    "/api/PTLUsuariosEmpresas/ListaUsuariosEmpresa": {
       "get": {
         "tags": [
-          "PTLUsuariosEmpresa"
+          "PTLUsuariosEmpresas"
         ],
         "responses": {
           "200": {
@@ -1313,17 +2363,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosEmpresaModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosEmpresasModelsListGetResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosEmpresaModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosEmpresasModelsListGetResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PTLUsuariosEmpresaModelsListGetResponse"
+                  "$ref": "#/components/schemas/PTLUsuariosEmpresasModelsListGetResponse"
                 }
               }
             }
@@ -1593,7 +2643,7 @@
   },
   "components": {
     "schemas": {
-      "PTLAplicacionModels": {
+      "PTLAplicacionesModels": {
         "type": "object",
         "properties": {
           "aplicacionId": {
@@ -1614,7 +2664,7 @@
         },
         "additionalProperties": false
       },
-      "PTLAplicacionModelsListGetResponse": {
+      "PTLAplicacionesModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1635,7 +2685,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLAplicacionModels"
+              "$ref": "#/components/schemas/PTLAplicacionesModels"
             },
             "nullable": true
           }
@@ -1699,7 +2749,7 @@
         },
         "additionalProperties": false
       },
-      "PTLContenidoELModels": {
+      "PTLContenidosELModels": {
         "type": "object",
         "properties": {
           "contenidoId": {
@@ -1728,7 +2778,31 @@
         },
         "additionalProperties": false
       },
-      "PTLContenidoELModelsListGetResponse": {
+      "PTLContenidosELModelsGetResponse": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "result": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "cathError": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/PTLContenidosELModels"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLContenidosELModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1749,7 +2823,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLContenidoELModels"
+              "$ref": "#/components/schemas/PTLContenidosELModels"
             },
             "nullable": true
           }
@@ -1838,6 +2912,30 @@
         },
         "additionalProperties": false
       },
+      "PTLEnlacesSTModelsGetResponse": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "result": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "cathError": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/PTLEnlacesSTModels"
+          }
+        },
+        "additionalProperties": false
+      },
       "PTLEnlacesSTModelsListGetResponse": {
         "type": "object",
         "properties": {
@@ -1866,7 +2964,7 @@
         },
         "additionalProperties": false
       },
-      "PTLHelpDeskTicketAPModels": {
+      "PTLHelpDeskTicketsAPModels": {
         "type": "object",
         "properties": {
           "ticketId": {
@@ -1891,7 +2989,7 @@
         },
         "additionalProperties": false
       },
-      "PTLHelpDeskTicketAPModelsListGetResponse": {
+      "PTLHelpDeskTicketsAPModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -1912,7 +3010,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLHelpDeskTicketAPModels"
+              "$ref": "#/components/schemas/PTLHelpDeskTicketsAPModels"
             },
             "nullable": true
           }
@@ -2236,7 +3334,7 @@
         },
         "additionalProperties": false
       },
-      "PTLRequerimientoHDModels": {
+      "PTLRequerimientosHDModels": {
         "type": "object",
         "properties": {
           "requerimientoId": {
@@ -2261,7 +3359,7 @@
         },
         "additionalProperties": false
       },
-      "PTLRequerimientoHDModelsListGetResponse": {
+      "PTLRequerimientosHDModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2282,7 +3380,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLRequerimientoHDModels"
+              "$ref": "#/components/schemas/PTLRequerimientosHDModels"
             },
             "nullable": true
           }
@@ -2342,7 +3440,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSeguimientoRQModels": {
+      "PTLSeguimientosRQModels": {
         "type": "object",
         "properties": {
           "seguimientoId": {
@@ -2367,7 +3465,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSeguimientoRQModelsListGetResponse": {
+      "PTLSeguimientosRQModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2388,7 +3486,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLSeguimientoRQModels"
+              "$ref": "#/components/schemas/PTLSeguimientosRQModels"
             },
             "nullable": true
           }
@@ -2420,6 +3518,34 @@
           "aplicacionId": {
             "type": "integer",
             "format": "int32"
+          },
+          "puertoSitio": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLSitiosAPModelsGetResponse": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "result": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "cathError": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/PTLSitiosAPModels"
           }
         },
         "additionalProperties": false
@@ -2452,7 +3578,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSuscriptorAPModels": {
+      "PTLSuscriptoresAPModels": {
         "type": "object",
         "properties": {
           "suscriptorId": {
@@ -2477,7 +3603,7 @@
         },
         "additionalProperties": false
       },
-      "PTLSuscriptorAPModelsListGetResponse": {
+      "PTLSuscriptoresAPModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2498,7 +3624,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLSuscriptorAPModels"
+              "$ref": "#/components/schemas/PTLSuscriptoresAPModels"
             },
             "nullable": true
           }
@@ -2562,7 +3688,7 @@
         },
         "additionalProperties": false
       },
-      "PTLUsuariosEmpresaModels": {
+      "PTLUsuariosEmpresasModels": {
         "type": "object",
         "properties": {
           "usuarioEmpresaId": {
@@ -2580,7 +3706,7 @@
         },
         "additionalProperties": false
       },
-      "PTLUsuariosEmpresaModelsListGetResponse": {
+      "PTLUsuariosEmpresasModelsListGetResponse": {
         "type": "object",
         "properties": {
           "statusCode": {
@@ -2601,7 +3727,7 @@
           "data": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PTLUsuariosEmpresaModels"
+              "$ref": "#/components/schemas/PTLUsuariosEmpresasModels"
             },
             "nullable": true
           }
