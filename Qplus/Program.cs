@@ -46,7 +46,7 @@ builder.Services.AddSwaggerGen(y =>
     y.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "Qplus-Api",
+        Title = "Plataforma-Api",
         Description = "ASP.NET Core API General"
     });
     y.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
