@@ -71,7 +71,7 @@ namespace App.logic.Extensions
 
             services.AddScoped<IPTLSitiosAPRepository, PTLSitiosAPRepository>();
             services.AddScoped<IPTLContenidosELRepository, PTLContenidosELRepository>();
-            services.AddScoped<IPTLEnlasesSTRepository, PTLEnlasesSTRepository>();
+            services.AddScoped<IPTLEnlacesSTRepository, PTLEnlacesSTRepository>();
 
             services.AddScoped<IPTLRolesAPRespository, PTLRolesAPRespository>();
             services.AddScoped<IPTLUsuariosAPRepository, PTLUsuariosAPRepository>();
