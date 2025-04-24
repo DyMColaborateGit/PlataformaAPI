@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\repositories\\ptl\\ptlcontenidoselrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\repositories\\ptl\\ptlcontenidoselrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Plataforma.csproj|e:\\code\\plataformadym\\plataformaapi\\qplus\\controllers\\ptl\\ptlusuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Plataforma.csproj|solutionrelative:qplus\\controllers\\ptl\\ptlusuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Plataforma.csproj|e:\\code\\plataformadym\\plataformaapi\\qplus\\controllers\\ptl\\ptlcontenidoselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Plataforma.csproj|solutionrelative:qplus\\controllers\\ptl\\ptlcontenidoselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\repositories\\ptl\\ptlusuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\repositories\\ptl\\ptlusuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\irepositories\\ptl\\iptlcontenidoselrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\irepositories\\ptl\\iptlcontenidoselrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\irepositories\\ptl\\iptlusuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\irepositories\\ptl\\iptlusuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\repositories\\ptl\\ptlsitiosaprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\repositories\\ptl\\ptlsitiosaprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|e:\\code\\plataformadym\\plataformaapi\\app.logic\\iservices\\ptl\\iptlusuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\iservices\\ptl\\iptlusuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|e:\\code\\plataformadym\\plataformaapi\\app.infraestructure\\irepositories\\ptl\\iptlsitiosaprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9334D4-5FFC-4A47-863A-1301E378B1E4}|App.Infraestructure\\App.Infraestructure.csproj|solutionrelative:app.infraestructure\\irepositories\\ptl\\iptlsitiosaprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|e:\\code\\plataformadym\\plataformaapi\\app.logic\\services\\ptl\\ptlsitiosapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\services\\ptl\\ptlsitiosapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|e:\\code\\plataformadym\\plataformaapi\\app.logic\\iservices\\ptl\\iptlcontenidoselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\iservices\\ptl\\iptlcontenidoselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|e:\\code\\plataformadym\\plataformaapi\\app.logic\\services\\ptl\\ptlcontenidoselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\services\\ptl\\ptlcontenidoselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|e:\\code\\plataformadym\\plataformaapi\\app.logic\\iservices\\ptl\\iptlsitiosapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\iservices\\ptl\\iptlsitiosapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Plataforma.csproj|e:\\code\\plataformadym\\plataformaapi\\qplus\\controllers\\ptl\\ptlsitiosapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2C7F34E-E34D-4923-A762-2CFB0B8E0BCC}|Qplus\\Plataforma.csproj|solutionrelative:qplus\\controllers\\ptl\\ptlsitiosapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|e:\\code\\plataformadym\\plataformaapi\\app.logic\\services\\ptl\\ptlusuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5537B18-F228-4D1E-9876-22122779E57B}|App.Logic\\App.logic.csproj|solutionrelative:app.logic\\services\\ptl\\ptlusuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,132 +54,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PTLContenidosELRepository.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLContenidosELRepository.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Repositories\\PTL\\PTLContenidosELRepository.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLContenidosELRepository.cs",
-              "RelativeToolTip": "App.Infraestructure\\Repositories\\PTL\\PTLContenidosELRepository.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PTLUsuariosRepository.cs",
+              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLUsuariosRepository.cs",
+              "RelativeDocumentMoniker": "App.Infraestructure\\Repositories\\PTL\\PTLUsuariosRepository.cs",
+              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLUsuariosRepository.cs",
+              "RelativeToolTip": "App.Infraestructure\\Repositories\\PTL\\PTLUsuariosRepository.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwFcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:00:38.948Z",
+              "WhenOpened": "2025-04-23T21:08:54.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IPTLContenidosELRepository.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLContenidosELRepository.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\IRepositories\\PTL\\IPTLContenidosELRepository.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLContenidosELRepository.cs",
-              "RelativeToolTip": "App.Infraestructure\\IRepositories\\PTL\\IPTLContenidosELRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Title": "IPTLUsuariosRepository.cs",
+              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLUsuariosRepository.cs",
+              "RelativeDocumentMoniker": "App.Infraestructure\\IRepositories\\PTL\\IPTLUsuariosRepository.cs",
+              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLUsuariosRepository.cs",
+              "RelativeToolTip": "App.Infraestructure\\IRepositories\\PTL\\IPTLUsuariosRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:59:23.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PTLContenidosELService.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Services\\PTL\\PTLContenidosELService.cs",
-              "RelativeDocumentMoniker": "App.Logic\\Services\\PTL\\PTLContenidosELService.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Services\\PTL\\PTLContenidosELService.cs",
-              "RelativeToolTip": "App.Logic\\Services\\PTL\\PTLContenidosELService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:53:43.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPTLContenidosELService.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\IServices\\PTL\\IPTLContenidosELService.cs",
-              "RelativeDocumentMoniker": "App.Logic\\IServices\\PTL\\IPTLContenidosELService.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\IServices\\PTL\\IPTLContenidosELService.cs",
-              "RelativeToolTip": "App.Logic\\IServices\\PTL\\IPTLContenidosELService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:51:14.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PTLContenidosELController.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLContenidosELController.cs",
-              "RelativeDocumentMoniker": "Qplus\\Controllers\\PTL\\PTLContenidosELController.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLContenidosELController.cs",
-              "RelativeToolTip": "Qplus\\Controllers\\PTL\\PTLContenidosELController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAIwHoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:45:01.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PTLSitiosAPRepository.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLSitiosAPRepository.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\Repositories\\PTL\\PTLSitiosAPRepository.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\Repositories\\PTL\\PTLSitiosAPRepository.cs",
-              "RelativeToolTip": "App.Infraestructure\\Repositories\\PTL\\PTLSitiosAPRepository.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T14:44:49.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T21:10:02.321Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IPTLSitiosAPRepository.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLSitiosAPRepository.cs",
-              "RelativeDocumentMoniker": "App.Infraestructure\\IRepositories\\PTL\\IPTLSitiosAPRepository.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Infraestructure\\IRepositories\\PTL\\IPTLSitiosAPRepository.cs",
-              "RelativeToolTip": "App.Infraestructure\\IRepositories\\PTL\\IPTLSitiosAPRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Title": "PTLUsuariosService.cs",
+              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Services\\PTL\\PTLUsuariosService.cs",
+              "RelativeDocumentMoniker": "App.Logic\\Services\\PTL\\PTLUsuariosService.cs",
+              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Services\\PTL\\PTLUsuariosService.cs",
+              "RelativeToolTip": "App.Logic\\Services\\PTL\\PTLUsuariosService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDAAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T14:43:23.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T21:07:24.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PTLSitiosAPService.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Services\\PTL\\PTLSitiosAPService.cs",
-              "RelativeDocumentMoniker": "App.Logic\\Services\\PTL\\PTLSitiosAPService.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\Services\\PTL\\PTLSitiosAPService.cs",
-              "RelativeToolTip": "App.Logic\\Services\\PTL\\PTLSitiosAPService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T14:32:02.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPTLSitiosAPService.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\IServices\\PTL\\IPTLSitiosAPService.cs",
-              "RelativeDocumentMoniker": "App.Logic\\IServices\\PTL\\IPTLSitiosAPService.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\IServices\\PTL\\IPTLSitiosAPService.cs",
-              "RelativeToolTip": "App.Logic\\IServices\\PTL\\IPTLSitiosAPService.cs",
+              "DocumentIndex": 3,
+              "Title": "IPTLUsuariosService.cs",
+              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\IServices\\PTL\\IPTLUsuariosService.cs",
+              "RelativeDocumentMoniker": "App.Logic\\IServices\\PTL\\IPTLUsuariosService.cs",
+              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\App.Logic\\IServices\\PTL\\IPTLUsuariosService.cs",
+              "RelativeToolTip": "App.Logic\\IServices\\PTL\\IPTLUsuariosService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T14:24:47.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T21:06:15.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PTLSitiosAPController.cs",
-              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLSitiosAPController.cs",
-              "RelativeDocumentMoniker": "Qplus\\Controllers\\PTL\\PTLSitiosAPController.cs",
-              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLSitiosAPController.cs",
-              "RelativeToolTip": "Qplus\\Controllers\\PTL\\PTLSitiosAPController.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAKcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PTLUsuariosController.cs",
+              "DocumentMoniker": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLUsuariosController.cs",
+              "RelativeDocumentMoniker": "Qplus\\Controllers\\PTL\\PTLUsuariosController.cs",
+              "ToolTip": "E:\\CODE\\PLATAFORMADYM\\PlataformaAPI\\Qplus\\Controllers\\PTL\\PTLUsuariosController.cs",
+              "RelativeToolTip": "Qplus\\Controllers\\PTL\\PTLUsuariosController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:55:51.636Z",
+              "WhenOpened": "2025-04-23T20:58:00.683Z",
               "EditorCaption": ""
             }
           ]

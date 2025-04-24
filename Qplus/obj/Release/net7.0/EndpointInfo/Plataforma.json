@@ -2280,6 +2280,428 @@
         }
       }
     },
+    "/api/PTLUsuarios/GetListUsuarios": {
+      "get": {
+        "tags": [
+          "PTLUsuarios"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsListGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsListGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsListGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLUsuarios/GetUsuarioById/{UsuarioId}": {
+      "get": {
+        "tags": [
+          "PTLUsuarios"
+        ],
+        "parameters": [
+          {
+            "name": "UsuarioId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLUsuarios/PostInsertarUsuario": {
+      "post": {
+        "tags": [
+          "PTLUsuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLUsuariosModels"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLUsuariosModels"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLUsuariosModels"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLUsuarios/PutModificarUsuario": {
+      "put": {
+        "tags": [
+          "PTLUsuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLUsuariosModels"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLUsuariosModels"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTLUsuariosModels"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/PTLUsuarios/DeleteUsuario/{UsuarioId}": {
+      "delete": {
+        "tags": [
+          "PTLUsuarios"
+        ],
+        "parameters": [
+          {
+            "name": "UsuarioId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK. Devuelve el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTLUsuariosModelsGetResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized. No se ha indicado o es incorrecto el Token JWT de acceso.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound. No se ha encontrado el objeto solicitado.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
     "/api/PTLUsuariosAP/ListaUsuarios": {
       "get": {
         "tags": [
@@ -3728,6 +4150,91 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/PTLUsuariosEmpresasModels"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLUsuariosModels": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fotoUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombreUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcionUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "claveUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "correoUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "estadoUsuario": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLUsuariosModelsGetResponse": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "result": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "cathError": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/PTLUsuariosModels"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTLUsuariosModelsListGetResponse": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "result": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "cathError": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PTLUsuariosModels"
             },
             "nullable": true
           }
