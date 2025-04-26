@@ -14,9 +14,9 @@ namespace App.logic.Services.PTL
             _PTLContenidosELRepository = PTLContenidosELRepository;
         }
 
-        public async Task<List<PTLContenidosELModels>> ListaContenidos()
+        public async Task<List<PTLContenidosELModels>> GetListContenidos()
         {
-            return await _PTLContenidosELRepository.ListaContenidos();
+            return await _PTLContenidosELRepository.GetListContenidos();
         }
 
         public async Task<PTLContenidosELModels> GetContenidoById(int ContenidoId)

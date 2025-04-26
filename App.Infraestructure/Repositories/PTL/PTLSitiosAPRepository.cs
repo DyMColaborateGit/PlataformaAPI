@@ -20,7 +20,7 @@ namespace App.Infraestructure.Repositories.PTL
             _mapper = mapper;
         }
 
-        public async Task<List<PTLSitiosAPModels>> ListaSitios()
+        public async Task<List<PTLSitiosAPModels>> GetListSitios()
         {
             try
             {
@@ -31,7 +31,7 @@ namespace App.Infraestructure.Repositories.PTL
             }
             catch (Exception ex)
             {
-                ExceptionLogHelpers.LogException("ListaSitios", ex, "");
+                ExceptionLogHelpers.LogException("GetListSitios", ex, "");
                 throw;
             }
         }

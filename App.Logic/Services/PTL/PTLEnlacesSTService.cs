@@ -13,9 +13,9 @@ namespace App.logic.Services.PTL
             _PTLEnlacesSTRepository = PTLEnlacesSTRepository;
         }
 
-        public async Task<List<PTLEnlacesSTModels>> ListaEnlaces()
+        public async Task<List<PTLEnlacesSTModels>> GetListEnlaces()
         {
-            return await _PTLEnlacesSTRepository.ListaEnlaces();
+            return await _PTLEnlacesSTRepository.GetListEnlaces();
         }
 
         public async Task<PTLEnlacesSTModels> GetEnlaceById(int EnlaceId)
