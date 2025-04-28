@@ -77,6 +77,7 @@ namespace App.Infraestructure.Repositories.PTL
                 {
                     #region Update
                     UpdateRegistro.FotoUsuario = ObjUpdate.FotoUsuario;
+                    UpdateRegistro.IdentificacionUsuario = ObjUpdate.IdentificacionUsuario;
                     UpdateRegistro.NombreUsuario = ObjUpdate.NombreUsuario;
                     UpdateRegistro.DescripcionUsuario = ObjUpdate.DescripcionUsuario;
                     UpdateRegistro.CorreoUsuario = ObjUpdate.CorreoUsuario;

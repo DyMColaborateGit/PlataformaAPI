@@ -20,6 +20,10 @@ namespace App.Infraestructure.Connect.Configuration.PTL
                 .HasMaxLength(100)
                 .HasColumnType("nvarchar");
 
+            builder.Property(p => p.IdentificacionUsuario)
+                .IsRequired()
+                .HasColumnType("int");
+
             builder.Property(p => p.NombreUsuario)
                 .HasMaxLength(100)
                 .HasColumnType("nvarchar");

@@ -6,8 +6,8 @@ namespace App.logic.IServices.PTL
     {
         Task<List<PTLUsuariosModels>> GetListUsuarios();
         Task<PTLUsuariosModels> GetUsuarioById(int UsuarioId);
-        Task<PTLUsuariosModels> PostInsertarUsuario(PTLUsuariosModels ObjInsertarUsuario, string FotoUsuario, string NombreUsuario, string DescripcionUsuario, string CorreoUsuario, string ClaveUsuario, bool EstadoSitio);
-        Task<PTLUsuariosModels> PutModificarUsuario(PTLUsuariosModels ObjModificarUsuario, string FotoUsuario, string NombreUsuario, string DescripcionUsuario, string CorreoUsuario, string ClaveUsuario, bool EstadoSitio);
+        Task<PTLUsuariosModels> PostInsertarUsuario(PTLUsuariosModels ObjInsertarUsuario, string FotoUsuario, int IdentificacionUsuario, string NombreUsuario, string DescripcionUsuario, string CorreoUsuario, string ClaveUsuario, bool EstadoSitio);
+        Task<PTLUsuariosModels> PutModificarUsuario(PTLUsuariosModels ObjModificarUsuario, string FotoUsuarioint, int IdentificacionUsuario, string NombreUsuario, string DescripcionUsuario, string CorreoUsuario, string ClaveUsuario, bool EstadoSitio);
         Task<PTLUsuariosModels> DeleteUsuario(int UsuarioId);
     }
 }

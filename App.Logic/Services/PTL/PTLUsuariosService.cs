@@ -24,9 +24,10 @@ namespace App.logic.Services.PTL
             return await _PTLUsuariosRepository.GetUsuarioById(UsuarioId);
         }
 
-        public async Task<PTLUsuariosModels> PostInsertarUsuario(PTLUsuariosModels ObjInsertarUsuario, string FotoUsuario, string NombreUsuario, string DescripcionUsuario, string CorreoUsuario, string ClaveUsuario, bool EstadoSitio)
+        public async Task<PTLUsuariosModels> PostInsertarUsuario(PTLUsuariosModels ObjInsertarUsuario, string FotoUsuario, int IdentificacionUsuario, string NombreUsuario, string DescripcionUsuario, string CorreoUsuario, string ClaveUsuario, bool EstadoSitio)
         {
             ObjInsertarUsuario.FotoUsuario = FotoUsuario;
+            ObjInsertarUsuario.IdentificacionUsuario = IdentificacionUsuario;
             ObjInsertarUsuario.NombreUsuario = NombreUsuario;
             ObjInsertarUsuario.DescripcionUsuario = DescripcionUsuario;
             ObjInsertarUsuario.CorreoUsuario = CorreoUsuario;
@@ -35,9 +36,10 @@ namespace App.logic.Services.PTL
 
             return await _PTLUsuariosRepository.PostInsertarUsuario(ObjInsertarUsuario);
         }
-        public async Task<PTLUsuariosModels> PutModificarUsuario(PTLUsuariosModels ObjModificarUsuario, string FotoUsuario, string NombreUsuario, string DescripcionUsuario, string CorreoUsuario, string ClaveUsuario, bool EstadoSitio)
+        public async Task<PTLUsuariosModels> PutModificarUsuario(PTLUsuariosModels ObjModificarUsuario, string FotoUsuario, int IdentificacionUsuario, string NombreUsuario, string DescripcionUsuario, string CorreoUsuario, string ClaveUsuario, bool EstadoSitio)
         {
             ObjModificarUsuario.FotoUsuario = FotoUsuario;
+            ObjModificarUsuario.IdentificacionUsuario = IdentificacionUsuario;
             ObjModificarUsuario.NombreUsuario = NombreUsuario;
             ObjModificarUsuario.DescripcionUsuario = DescripcionUsuario;
             ObjModificarUsuario.CorreoUsuario = CorreoUsuario;

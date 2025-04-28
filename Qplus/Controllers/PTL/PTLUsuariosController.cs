@@ -87,6 +87,7 @@ namespace Qplus.Controllers.PTL
                 resultado.Data = await _PTLUsuariosService.PostInsertarUsuario(
                     ObjInsertarUsuario,
                     ObjInsertarUsuario.FotoUsuario,
+                    ObjInsertarUsuario.IdentificacionUsuario,
                     ObjInsertarUsuario.NombreUsuario,
                     ObjInsertarUsuario.DescripcionUsuario,
                     ObjInsertarUsuario.CorreoUsuario,
@@ -123,6 +124,7 @@ namespace Qplus.Controllers.PTL
                 resultado.Data = await _PTLUsuariosService.PutModificarUsuario(
                     ObjModificarUsuario,
                     ObjModificarUsuario.FotoUsuario,
+                    ObjModificarUsuario.IdentificacionUsuario,
                     ObjModificarUsuario.NombreUsuario,
                     ObjModificarUsuario.DescripcionUsuario,
                     ObjModificarUsuario.CorreoUsuario,

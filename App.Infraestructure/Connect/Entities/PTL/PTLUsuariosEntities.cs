@@ -9,6 +9,7 @@ public class PTLUsuariosEntities
     [Key]
     public int UsuarioId { get; set; }
     public string? FotoUsuario { get; set; }
+    public int IdentificacionUsuario { get; set; }
     public string? NombreUsuario { get; set; }
     public string? DescripcionUsuario { get; set; }
     public string? ClaveUsuario { get; set; }
