@@ -9,6 +9,10 @@ namespace App.logic.IServices.PTL
 {
     public interface IPTLRolesAPServices
     {
-        Task<List<PTLRolesAPModels>> ListaRoles();
+        Task<List<PTLRolesAPModels>> GetListRoles();
+        Task<PTLRolesAPModels> GetRolesById(int RolId);
+        Task<PTLRolesAPModels> PostInsertarRoles(PTLRolesAPModels ObjInsertarRoles, string NombreRol, string DescripcionRol, bool EstadoRol);
+        Task<PTLRolesAPModels> PutModificarRoles(PTLRolesAPModels ObjModificarRoles, string NombreRol, string DescripcionRol, bool EstadoRol);
+        Task<PTLRolesAPModels> DeleteRoles(int RolId);
     }
 }

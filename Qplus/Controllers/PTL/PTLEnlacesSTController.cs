@@ -26,13 +26,13 @@ namespace Qplus.Controllers.PTL
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [HttpGet("ListaEnlaces")]
-        public async Task<GetResponse<List<PTLEnlacesSTModels>>> ListaEnlaces()
+        [HttpGet("GetListEnlaces")]
+        public async Task<GetResponse<List<PTLEnlacesSTModels>>> GetListEnlaces()
         {
             GetResponse<List<PTLEnlacesSTModels>> resultado = new GetResponse<List<PTLEnlacesSTModels>>();
             try
             {
-                resultado.Data = await _PTLEnlacesSTService.ListaEnlaces();
+                resultado.Data = await _PTLEnlacesSTService.GetListEnlaces();
                 resultado.StatusCode = (int)HttpCodes.OK;
                 resultado.Message = new HttpCodesMessage().OK;
                 return resultado;

@@ -18,6 +18,7 @@ public class ConnectContext : DbContext
     public DbSet<PTLEnlacesSTEntities> PTLEnlacesST { get; set; }
     public DbSet<PTLContenidosELEntities> PTLContenidosEL { get; set; }
     public DbSet<PTLRolesAPEntities> PTLRolesAP { get; set; }
+    public DbSet<PTLUsuariosEntities> PTLUsuarios { get; set; }
     public DbSet<PTLUsuariosAPEntities> PTLUsuariosAP { get; set; }
     public DbSet<PTLUsuariosRolesEntities> PTLUsuariosRoles { get; set; }
     public DbSet<PTLAplicacionesEntities> PTLAplicaciones { get; set; }

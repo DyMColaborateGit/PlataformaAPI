@@ -20,6 +20,10 @@ namespace App.Infraestructure.Connect.Configuration.PTL
                 .IsRequired()
                 .HasColumnType("int");
 
+            builder.Property(p => p.AplicacionId)
+                .IsRequired()
+                .HasColumnType("int");
+
             builder.Property(p => p.NombreLicencia)
                 .HasMaxLength(100)
                 .HasColumnType("nvarchar");
@@ -31,9 +35,14 @@ namespace App.Infraestructure.Connect.Configuration.PTL
             builder.Property(p => p.EstadoLicencia)
                 .HasColumnType("bit");
 
-            builder.Property(p => p.AplicacionId)
+            builder.Property(p => p.FechaCreacion)
                 .IsRequired()
-                .HasColumnType("int");
+                .HasColumnType("Datetime");
+
+            builder.Property(p => p.FechaVencimiento)
+                .IsRequired()
+                .HasColumnType("Datetime");
+
         }
     }
 }

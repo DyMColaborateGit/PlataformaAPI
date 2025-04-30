@@ -20,7 +20,7 @@ namespace App.Infraestructure.Repositories.PTL
             _mapper = mapper;
         }
 
-        public async Task<List<PTLContenidosELModels>> ListaContenidos()
+        public async Task<List<PTLContenidosELModels>> GetListContenidos()
         {
             try
             {
@@ -31,7 +31,7 @@ namespace App.Infraestructure.Repositories.PTL
             }
             catch (Exception ex)
             {
-                ExceptionLogHelpers.LogException("ListaContenidos", ex, "");
+                ExceptionLogHelpers.LogException("GetListContenidos", ex, "");
                 throw;
             }
         }

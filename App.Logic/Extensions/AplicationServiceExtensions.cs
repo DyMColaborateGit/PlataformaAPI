@@ -41,6 +41,7 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLContenidosELService, PTLContenidosELService>();
             services.AddScoped<IPTLEnlacesSTService, PTLEnlacesSTService>();
 
+            services.AddScoped<IPTLUsuariosService, PTLUsuariosService>();
             services.AddScoped<IPTLRolesAPServices, PTLRolesAPServices>();
             services.AddScoped<IPTLUsuariosAPService, PTLUsuariosAPService>();
             services.AddScoped<IPTLUsuariosRolesService, PTLUsuariosRolesService>();
@@ -73,6 +74,7 @@ namespace App.logic.Extensions
             services.AddScoped<IPTLContenidosELRepository, PTLContenidosELRepository>();
             services.AddScoped<IPTLEnlacesSTRepository, PTLEnlacesSTRepository>();
 
+            services.AddScoped<IPTLUsuariosRepository, PTLUsuariosRepository>();
             services.AddScoped<IPTLRolesAPRespository, PTLRolesAPRespository>();
             services.AddScoped<IPTLUsuariosAPRepository, PTLUsuariosAPRepository>();
             services.AddScoped<IPTLUsuariosRolesRepository, PTLUsuariosRolesRepository>();

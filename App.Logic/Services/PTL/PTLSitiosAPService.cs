@@ -13,9 +13,9 @@ namespace App.logic.Services.PTL
             _PTLSitiosAPRepository = PTLSitiosAPRepository;
         }
 
-        public async Task<List<PTLSitiosAPModels>> ListaSitios()
+        public async Task<List<PTLSitiosAPModels>> GetListSitios()
         {
-            return await _PTLSitiosAPRepository.ListaSitios();
+            return await _PTLSitiosAPRepository.GetListSitios();
         }
         public async Task<PTLSitiosAPModels> GetSitioById(int SitioId)
         {

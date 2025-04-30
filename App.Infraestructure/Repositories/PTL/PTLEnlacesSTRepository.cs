@@ -20,7 +20,7 @@ namespace App.Infraestructure.Repositories.PTL
             _mapper = mapper;
         }
 
-        public async Task<List<PTLEnlacesSTModels>> ListaEnlaces()
+        public async Task<List<PTLEnlacesSTModels>> GetListEnlaces()
         {
             try
             {
@@ -30,7 +30,7 @@ namespace App.Infraestructure.Repositories.PTL
             }
             catch (Exception ex)
             {
-                ExceptionLogHelpers.LogException("ListaEnlaces", ex, "");
+                ExceptionLogHelpers.LogException("GetListEnlaces", ex, "");
                 throw;
             }
         }
